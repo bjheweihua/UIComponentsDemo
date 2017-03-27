@@ -1,0 +1,146 @@
+
+{
+    "issuccess": 1,
+    "sectionList": [
+                    {
+                    "elementType": 0,
+                    "elementName": "首焦",
+                    "elements": [
+                                 {
+                                 "eType": 101,
+                                 "bgColor": "#ffffff",
+                                 "imgUrl": "",
+                                 "title": null,
+                                 "titleColor": null,
+                                 "list": [
+                                          {
+                                          "eType": 101,
+                                          "bgColor": "#ffffff",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4243/112/72768662/91090/74ed8bfe/58aeab93N7a2bcf05.png"
+                                          },
+                                          {
+                                          "eType": 101,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3808/218/3301121420/113589/41c1018a/588610fdN7fe6dc98.jpg"
+                                          },
+                                          {
+                                          "eType": 101,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3223/184/6927902781/61350/fb5c83d4/58ad97ccNffaa6894.jpg"
+                                          },
+                                          {
+                                          "eType": 101,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4351/240/78877894/65505/b863a49c/58aec224N7ea1b63f.jpg"
+                                          },
+                                          {
+                                          "eType": 101,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4057/256/2743245000/41567/355c30b8/58ad9875N530eeddf.jpg"
+                                          }
+                                          ]
+                                 }
+                                 ]
+                    },
+                    {
+                    "elementType": 0, 
+                    "elementName": "icon",
+                    "elements": [
+                                 {
+                                 "eType": 102,
+                                 "bgColor": "#ffffff",
+                                 "imgUrl": "",
+                                 "title": null,
+                                 "titleColor": null,
+                                 "list": [
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "手机充值",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3070/227/6138318054/1036/4adff403/589c16e3N66bfe558.png?width=192&height=126"
+                                          },
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "保障险",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3274/205/5974383636/2660/f70f3d4a/589c1aadNbcfa7f03.png?width=192&height=126"
+                                          },
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "惠加油",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3157/251/6002553790/1478/6a6149c8/589c1abcN014fa15a.png?width=192&height=126"
+                                          },
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "拍立返",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4009/299/1897761275/1760/a022965/589c1afcN0cfe157f.png?width=192&height=126",
+                                          "labelText": "返现金"
+                                          }
+                                          ]
+                                 },
+                                 {
+                                 "eType": 102,
+                                 "bgColor": "#ffffff",
+                                 "imgUrl": "",
+                                 "title": null,
+                                 "titleColor": null,
+                                 "list": [
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "信用卡还款",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3892/181/1964400212/2060/4f18f2e1/589c1b75N08d6a629.png?width=192&height=126"
+                                          },
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "定期还款",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3985/51/1907253739/2777/70b30f4b/589c1bf3N003ec700.png?width=192&height=126"
+                                          },
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "智能记账",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3949/200/2668751113/1242/2ae6c310/58ad33c5N96aa56f6.png?width=192&height=126"
+                                          },
+                                          {
+                                          "eType": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": "生活缴费",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3868/87/2617585102/2294/b8935e42/58ad12c5Nec61a1b1.png?width=192&height=126"
+                                          }
+                                          ]
+                                 }
+                                 ]
+                    }
+                    ], 
+    "issuccess": 1, 
+    "naviTitle": "白条", 
+    "myOrderNum": 18,
+    "shoppingCartNum": 2, 
+    "naviTitleColor": "#ffffff"
+}

@@ -1,0 +1,406 @@
+
+{
+    "issuccess": 1,
+    "sectionList": [
+                    {
+                    "groupType" : 0,
+                    "list": [
+                              {
+                              "type": 102,
+                              "list": [
+                                          {
+                                          "type": 102,
+                                          "bgColor": "#ffffff",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4309/125/88475979/89114/be23238a/58af947fNe8728cb5.jpg?width=1125&height=375"
+                                          },
+                                          {
+                                          "type": 102,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4321/205/122448165/106794/37f37db8/58afa6a7Ne9493962.jpg?width=1125&height=375"
+                                          },
+                                          {
+                                          "type": 102,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4201/283/125985008/94770/c28c4bf7/58afabf5N8f968134.jpg?width=1125&height=375"
+                                          },
+                                          {
+                                          "type": 102,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3265/57/6946371872/61292/67c659cd/58af9bc0Nbca59594.jpg?width=1125&height=375"
+                                          },
+                                          {
+                                          "type": 102,
+                                          "bgColor": "#ffffff",
+                                          "imgUrl": "",
+                                          "title": null,
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4360/201/127307269/88997/4a0369d7/58afababN68c1d031.jpg?width=1125&height=375"
+                                          }
+                                          ]
+                                 },
+                                 {
+                                 "type": 103,
+                                 "list": [
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "手机充值",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3070/227/6138318054/1036/4adff403/589c16e3N66bfe558.png?width=192&height=126"
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "众筹",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3058/364/6090375540/1916/825b8571/589c1709N3c41f0df.png?width=192&height=126",
+                                          "labelText": ""
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "保障险",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3274/205/5974383636/2660/f70f3d4a/589c1aadNbcfa7f03.png?width=192&height=126"
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "惠加油",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3157/251/6002553790/1478/6a6149c8/589c1abcN014fa15a.png?width=192&height=126"
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "拍立返",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4009/299/1897761275/1760/a022965/589c1afcN0cfe157f.png?width=192&height=126",
+                                          "labelText": "返现金"
+                                          }
+                                          ]
+                                 },
+                                 {
+                                 "type": 103,
+                                 "list": [
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "信用卡还款",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3892/181/1964400212/2060/4f18f2e1/589c1b75N08d6a629.png?width=192&height=126"
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "定期还款",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3985/51/1907253739/2777/70b30f4b/589c1bf3N003ec700.png?width=192&height=126"
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "智能记账",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3949/200/2668751113/1242/2ae6c310/58ad33c5N96aa56f6.png?width=192&height=126"
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "生活缴费",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3868/87/2617585102/2294/b8935e42/58ad12c5Nec61a1b1.png?width=192&height=126"
+                                          },
+                                          {
+                                          "type": 103,
+                                          "bgColor": "#ffffff",
+                                          "title": "全部服务",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3913/139/1918521980/1192/a1e2b9b4/589c1c2cN2ef33780.png?width=192&height=126"
+                                          }
+                                          ]
+                                 },
+                                 {
+                                 "type": 107,
+                                 "list": [
+                                          {
+                                          "type": 107,
+                                          "bgColor": "#ffffff",
+                                          "title": "话费卡转让变现，手续费仅4%",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3154/258/6269066826/1329/719041d7/58a2a455N77020ee7.png?width=48&height=48"
+                                          },
+                                          {
+                                          "type": 107,
+                                          "bgColor": "#ffffff",
+                                          "title": "纸团挑战，冠军梦想运动场",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3154/258/6269066826/1329/719041d7/58a2a455N77020ee7.png?width=48&height=48",
+                                          "labelText": "返现金"
+                                          },
+                                          {
+                                          "type": 107,
+                                          "bgColor": "#ffffff",
+                                          "title": "跑出更好的自己",
+                                          "titleColor": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3154/258/6269066826/1329/719041d7/58a2a455N77020ee7.png?width=48&height=48"
+                                          }
+                                          ]
+                                 }
+                                 ]
+                    },
+                    {
+                    "groupType" : 0,
+                    "list": [
+                             {
+                             "type": 100,
+                             "bgColor": "#ffffff",
+                             "title": "拍立返",
+                             "titleColor": "#444444",
+                             "title1": "购物返现金",
+                             "title1Color": "#999999",
+                             },
+                             {
+                                 "type": 105,
+                                 "list": [
+                                          {
+                                          "type": 105,
+                                          "bgColor": "#ffffff",
+                                          "title": "返现",
+                                          "titleColor": "#444444",
+                                          "title1": " ¥1",
+                                          "title1Color": "#ff801a",
+                                          "title2": "德芙巧克力",
+                                          "title2Color": "#999999",
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3151/57/6857109957/47552/892b8048/58af90d1Nf61f7f67.png?width=180&height=180"
+                                          },
+                                          {
+                                          "type": 105,
+                                          "bgColor": "#ffffff",
+                                          "title": "返现",
+                                          "titleColor": "#444444",
+                                          "title1": " ¥1.5",
+                                          "title1Color": "#ff801a",
+                                          "title2": "雪碧",
+                                          "title2Color": "#999999",
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3169/101/6931607765/38012/dd38d5d/58af9113N0e10a46e.png?width=180&height=180"
+                                          },
+                                          {
+                                          "type": 105,
+                                          "bgColor": "#ffffff",
+                                          "title": "返现",
+                                          "titleColor": "#444444",
+                                          "title1": " ¥1.8",
+                                          "title1Color": "#ff801a",
+                                          "title2": "吉列手动剃须刀",
+                                          "title2Color": "#999999",
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3286/115/6691993447/42781/d448245d/58a6d015Nce9b6320.png?width=180&height=180"
+                                          }
+                                          ]
+                                 }
+                                 ]
+                    },
+                    {
+                    "groupType" : 0,
+                    "list": [
+                                 {
+                                 "type": 100,
+                                 "bgColor": "#ffffff",
+                                 "title": "好物专辑",
+                                 "titleColor": "#444444",
+                                 "title1": "",
+                                 "title1Color": "#999999",
+                                 },
+                                 {
+                                 "type": 106,
+                                 "list": [
+                                          {
+                                          "type": 106,
+                                          "bgColor": "#ffffff",
+                                          "title": "他做了一个能装进可乐罐里的背包，想陪你走遍全世界",
+                                          "titleColor": "#444444",
+                                          "title1": null,
+                                          "title1Color": null,
+                                          "title2": null,
+                                          "title2Color": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4264/143/78789616/74695/a9df22ed/58aeb15aN8c15008c.jpg?width=435&height=270"
+                                          },
+                                          {
+                                          "type": 106,
+                                          "bgColor": "#ffffff",
+                                          "title": "他在做茶的30年里，捐助了30多名贫困学生完成学业",
+                                          "titleColor": "#444444",
+                                          "title1": null,
+                                          "title1Color": null,
+                                          "title2": null,
+                                          "title2Color": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4183/220/82478146/108326/c0c8deb9/58aeb17fNc3e8f4db.jpg?width=435&height=270"
+                                          },
+                                          {
+                                          "type": 106,
+                                          "bgColor": "#ffffff",
+                                          "title": "横须贺夹克到底是什么，为何潮人都爱？",
+                                          "titleColor": "#444444",
+                                          "title1": null,
+                                          "title1Color": null,
+                                          "title2": null,
+                                          "title2Color": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3265/242/6878320419/111696/6638eedf/58aeb19eN2e9eec0e.jpg?width=435&height=270"
+                                          },
+                                          {
+                                          "type": 106,
+                                          "bgColor": "#ffffff",
+                                          "title": "到了30岁如何不被催婚？",
+                                          "titleColor": "#444444",
+                                          "title1": null,
+                                          "title1Color": null,
+                                          "title2": null,
+                                          "title2Color": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4201/336/80387225/66548/d8939127/58aeb1bbN0d0eca55.jpg?width=435&height=270"
+                                          },
+                                          {
+                                          "type": 106,
+                                          "bgColor": "#ffffff",
+                                          "title": "我暗恋你1291天，你也暗恋我对不对",
+                                          "titleColor": "#444444",
+                                          "title1": null,
+                                          "title1Color": null,
+                                          "title2": null,
+                                          "title2Color": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3139/44/6840504005/19747/47e95a93/58aeb1d8Nebe7446e.jpg?width=435&height=270"
+                                          },
+                                          {
+                                          "type": 106,
+                                          "bgColor": "#ffffff",
+                                          "title": "她尝遍苦涩的茶苗，只为了人人都能喝上一杯好茶",
+                                          "titleColor": "#444444",
+                                          "title1": null,
+                                          "title1Color": null,
+                                          "title2": null,
+                                          "title2Color": null,
+                                          "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3298/200/6929068502/153678/42565adc/58aeb118Nce5e9ef7.jpg?width=435&height=270"
+                                          }
+                                          ]
+                                 }
+                                 ]
+                    },
+                    {
+                    "groupType" : 0,
+                    "list": [
+                             {
+                             "type": 100,
+                             "bgColor": "#ffffff",
+                             "title": "用一大波众筹好物吸引你",
+                             "titleColor": "#444444",
+                             "title1": "",
+                             "title1Color": "#999999",
+                             },
+                             {
+                             "type": 104,
+                             "list": [
+                                      {
+                                      "type": 104,
+                                      "bgColor": "#ffffff",
+                                      "title": "功夫桃”黄桃罐头",
+                                      "titleColor": "#444444",
+                                      "title1": "￥1.00",
+                                      "title1Color": "#ff801a",
+                                      "title2": "",
+                                      "title2Color": "",
+                                      "imgUrl": "https://img30.360buyimg.com/cf/jfs/t4009/105/1557479330/100209/5b01195e/587effa6N8a653426.jpg"
+                                      },
+                                      {
+                                      "type": 104,
+                                      "bgColor": "#ffffff",
+                                      "title": "NB能量果汁，神秘力量",
+                                      "titleColor": "#444444",
+                                      "title1": "￥17.00",
+                                      "title1Color": "#ff801a",
+                                      "title2": "",
+                                      "title2Color": "",
+                                      "imgUrl": "https://img30.360buyimg.com/cf/jfs/t3931/153/2208431301/139628/6b737ca6/58a51291N347c10c5.jpg"
+                                      }
+                                      ]
+                             },
+                             {
+                             "type": 104,
+                             "list": [
+                                      {
+                                      "type": 104,
+                                      "bgColor": "#ffffff",
+                                      "title": "手工小麻花-追寻源味",
+                                      "titleColor": "#444444",
+                                      "title1": "￥17.00",
+                                      "title1Color": "#ff801a",
+                                      "title2": "",
+                                      "title2Color": "",
+                                      "imgUrl": "https://img30.360buyimg.com/cf/jfs/t3076/40/5680109615/147442/4db9b7d6/5879e1dfN3f86c5f5.jpg"
+                                      },
+                                      {
+                                      "type": 104,
+                                      "bgColor": "#ffffff",
+                                      "title": "春谷黄小米-惊喜你的味蕾",
+                                      "titleColor": "#444444",
+                                      "title1": "￥15.00",
+                                      "title1Color": "#ff801a",
+                                      "title2": "",
+                                      "title2Color": "",
+                                      "imgUrl": "https://img30.360buyimg.com/cf/jfs/t3055/242/5842390985/145576/a7822345/587db92aN89e5c796.jpg"
+                                      }
+                                      ]
+                             },
+                             {
+                             "type": 104,
+                             "list": [
+                                      {
+                                      "type": 104,
+                                      "bgColor": "#ffffff",
+                                      "title": "健康猫运动生活馆20号馆",
+                                      "titleColor": "#444444",
+                                      "title1": "￥1.00",
+                                      "title1Color": "#ff801a",
+                                      "title2": "",
+                                      "title2Color": "",
+                                      "imgUrl": "https://img30.360buyimg.com/cf/jfs/t3280/182/6568203603/143175/271ee1f1/58aab53eNb91a271f.jpg"
+                                      },
+                                      {
+                                      "type": 104,
+                                      "bgColor": "#ffffff",
+                                      "title": "微晶碳膜养生壶",
+                                      "titleColor": "#444444",
+                                      "title1": "￥199.00",
+                                      "title1Color": "#ff801a",
+                                      "title2": "",
+                                      "title2Color": "",
+                                      "imgUrl": "https://img30.360buyimg.com/cf/jfs/t4078/327/2505385233/150856/e3ace0f6/58ac08d5N1c3ff822.jpg"
+                                      }
+                                      ]
+                             },
+                             {
+                             "type": 101,
+                             "bgColor": "#ffffff",
+                             "title": "查看更多",
+                             "titleColor": null,
+                             "title1": null,
+                             "title1Color": null,
+                             }
+                             ]
+                    }
+                    ],
+    "issuccess": 1,
+    "naviTitle": "生活",
+    "myOrderNum": 20,
+    "shoppingCartNum": 0,
+    "naviTitleColor": "#ffffff"
+}
