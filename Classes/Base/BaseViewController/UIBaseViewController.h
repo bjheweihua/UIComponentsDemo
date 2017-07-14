@@ -13,6 +13,7 @@
 @interface UIBaseViewController : UIViewController
 
 @property (nonatomic, strong) UILabel *titleLable;
+-(void)leftButtonDown;
 - (void)addNavigationBar:(NSString*)title;
 - (void)addNavigationBar:(NSString*)title withColor:(UIColor*)color;
 - (void)addNavigationBar:(NSString*)title withNaviImageName:(NSString*)iName;
@@ -23,6 +24,9 @@
 //定制左侧按钮
 - (void)addLeftButtonItemWithTitle:(NSString*)title;
 - (void)addLeftButtonItemWithImageName:(NSString*)iNameU pressedImgName:(NSString*)iNameD;
+
+
+-(UIButton*) getRightButton;
 
 //定制右侧按钮
 - (void)addRightButtonItemWithImageName:(NSString *)iNameU pressedImgName:(NSString*)iNameD target:(id)target selector:(SEL)selector;

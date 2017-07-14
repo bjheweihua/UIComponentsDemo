@@ -1,0 +1,216 @@
+
+{
+    "issuccess": 1, 
+    "operatorName": "电信", 
+    "areaName": "北京", 
+    "contentList": [
+        {
+            "class": null, 
+            "tabTitle": "全国通用", 
+            "list": [
+                {
+                    "desc": "", 
+                    "salePriceName": "0.95元", 
+                    "skuName": "电信全国流量充值5M全国通用手机流量包支持234G当月有效", 
+                    "discount": 0, 
+                    "skuId": "200104762476", 
+                    "salePrice": "0.95", 
+                    "faceAmount": 5, 
+                    "faceAmountName": "5 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "1.90元", 
+                    "skuName": "电信全国流量充值10M全国通用手机流量包流量卡当月有效", 
+                    "discount": 0, 
+                    "skuId": "200104686627", 
+                    "salePrice": "1.90", 
+                    "faceAmount": 10, 
+                    "faceAmountName": "10 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "4.75元", 
+                    "skuName": "全国通用电信30M全国流量当月有效", 
+                    "discount": 0, 
+                    "skuId": "200106049278", 
+                    "salePrice": "4.75", 
+                    "faceAmount": 30, 
+                    "faceAmountName": "30 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "6.65元", 
+                    "skuName": "全国电信流量包 50M 全国漫游", 
+                    "discount": 0, 
+                    "skuId": "200104452646", 
+                    "salePrice": "6.65", 
+                    "faceAmount": 50, 
+                    "faceAmountName": "50 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "19.00元", 
+                    "skuName": "北京电信流量充值300M国内通用300M电信流量充值 3G4G叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200105032905", 
+                    "salePrice": "19.00", 
+                    "faceAmount": 300, 
+                    "faceAmountName": "300 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "28.50元", 
+                    "skuName": "北京电信流量充值500M国内通用500M电信流量充值 3G4G叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200100269332", 
+                    "salePrice": "28.50", 
+                    "faceAmount": 500, 
+                    "faceAmountName": "500 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "39.90元", 
+                    "skuName": "全国电信流量充值卡冲流量4G3G2G国内流量加油包快充 1000M", 
+                    "discount": 1, 
+                    "skuId": "200105049203", 
+                    "salePrice": "39.90", 
+                    "faceAmount": 1000, 
+                    "faceAmountName": "1000 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "47.50元", 
+                    "skuName": "北京 电信流量充值1GB国内通用1GB电信流量充值 3G4G叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200100271765", 
+                    "salePrice": "47.50", 
+                    "faceAmount": 1024, 
+                    "faceAmountName": "1 G"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "66.50元", 
+                    "skuName": "北京电信流量充值2GB国内通用2GB电信流量充值 3G4G叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200105027216", 
+                    "salePrice": "66.50", 
+                    "faceAmount": 2048, 
+                    "faceAmountName": "2 G"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "95.50元", 
+                    "skuName": "北京电信流量充值3GB国内通用3GB电信流量充值 3G4G叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200105032109", 
+                    "salePrice": "95.50", 
+                    "faceAmount": 3072, 
+                    "faceAmountName": "3 G"
+                }
+            ], 
+            "tips": " 即时生效 流量充值3GB国内通用3GB电信流量充值 3G4G叠加流量包"
+        }, 
+        {
+            "class": null, 
+            "tabTitle": "省内通用", 
+            "list": [
+                {
+                    "desc": "", 
+                    "salePriceName": "4.90元", 
+                    "skuName": "北京电信省内流量充值30M手机流量包流量卡自动充值当月有效", 
+                    "discount": 0, 
+                    "skuId": "200107300160", 
+                    "salePrice": "4.90", 
+                    "faceAmount": 30, 
+                    "faceAmountName": "30 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "9.10元", 
+                    "skuName": "北京电信流量充值100M本地流量100M电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200104460203", 
+                    "salePrice": "9.10", 
+                    "faceAmount": 100, 
+                    "faceAmountName": "100 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "13.00元", 
+                    "skuName": " 北京电信流量充值200M本地流量200M电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200104458603", 
+                    "salePrice": "13.00", 
+                    "faceAmount": 200, 
+                    "faceAmountName": "200 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "18.60元", 
+                    "skuName": "北京电信流量充值300M本地流量300M电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200107682990", 
+                    "salePrice": "18.60", 
+                    "faceAmount": 300, 
+                    "faceAmountName": "300 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "27.00元", 
+                    "skuName": "北京电信流量充值500M本地流量500M电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200104459105", 
+                    "salePrice": "27.00", 
+                    "faceAmount": 500, 
+                    "faceAmountName": "500 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "39.50元", 
+                    "skuName": "北京电信流量充值1000M本地流量1000M电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200105883006", 
+                    "salePrice": "39.50", 
+                    "faceAmount": 1000, 
+                    "faceAmountName": "1000 M"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "45.00元", 
+                    "skuName": "北京电信流量充值1G本地流量1G电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200105544880", 
+                    "salePrice": "45.00", 
+                    "faceAmount": 1024, 
+                    "faceAmountName": "1 G"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "65.00元", 
+                    "skuName": "北京电信流量充值2G本地流量2G电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200105547356", 
+                    "salePrice": "65.00", 
+                    "faceAmount": 2048, 
+                    "faceAmountName": "2 G"
+                }, 
+                {
+                    "desc": "", 
+                    "salePriceName": "93.00元", 
+                    "skuName": "北京电信流量充值3G本地流量3G电信流量充值 流量叠加流量包", 
+                    "discount": 0, 
+                    "skuId": "200105551937", 
+                    "salePrice": "93.00", 
+                    "faceAmount": 3072, 
+                    "faceAmountName": "3 G"
+                }
+            ], 
+            "tips": " 即时生效 当月有效 "
+        }
+    ], 
+    "phoneOperator": "(北京电信)", 
+    "bindInfo": "账户绑定号码", 
+    "error_msg": "", 
+    "isBind": true
+}

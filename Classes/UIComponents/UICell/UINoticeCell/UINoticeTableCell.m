@@ -11,7 +11,7 @@
 #import "UICellEntity.h"
 #import "UINoticeView.h"
 
-#define kIousTimerViewW (UIScreen_W - kOffsetX*2.f)
+#define kIousTimerViewW (kMainScreenW - kOffsetX*2.f)
 #define kIousTimerViewH (30)
 
 @interface UINoticeTableCell (){

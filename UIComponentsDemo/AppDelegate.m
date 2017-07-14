@@ -22,6 +22,8 @@
     
     MainViewController* mainController = [[MainViewController alloc] init];
     _naviController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    _naviController.interactivePopGestureRecognizer.enabled = YES;
+    _naviController.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setRootViewController:_naviController];
     [self.window makeKeyAndVisible];

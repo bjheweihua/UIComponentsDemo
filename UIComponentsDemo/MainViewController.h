@@ -16,7 +16,6 @@
 #endif
 
 
-
 @interface MainViewController : UIBaseViewController <IousFloatinglayerDelegate>{
     
     UITableView*      _tableView;

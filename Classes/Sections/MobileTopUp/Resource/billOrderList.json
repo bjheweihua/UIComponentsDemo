@@ -1,0 +1,62 @@
+{
+    "orderDetails": [
+        {
+            "createTime": 1499949091000, 
+            "orderStatusName": "订单取消", 
+            "areaCode": 1, 
+            "isp": 2, 
+            "areaCodeName": "北京", 
+            "skuName": "北京电信手机话费充值10元 快充", 
+            "class": null, 
+            "orderStatus": 1, 
+            "ispName": "电信", 
+            "chargeTitle": "仅支持查询本月订单", 
+            "orderStatusStyle": "#999999", 
+            "phoneNum": "15311426057", 
+            "chargeDetailDate": "20:31", 
+            "simpleSkuName": "10元", 
+            "chargePrice": "9.98", 
+            "orderId": 59461705634
+        }, 
+        {
+            "createTime": 1499949091000, 
+            "orderStatusName": "订单取消", 
+            "areaCode": 1, 
+            "isp": 2, 
+            "areaCodeName": "北京", 
+            "skuName": "北京电信手机话费充值10元 快充", 
+            "class": null, 
+            "orderStatus": 1, 
+            "ispName": "电信", 
+            "chargeTitle": "仅支持查询本月订单", 
+            "orderStatusStyle": "#999999", 
+            "phoneNum": "15311426057", 
+            "chargeDetailDate": "20:31", 
+            "simpleSkuName": "10元", 
+            "chargePrice": "9.98", 
+            "orderId": 59473392911
+        }, 
+        {
+            "createTime": 1499949060000, 
+            "orderStatusName": "订单取消", 
+            "areaCode": 1, 
+            "isp": 2, 
+            "areaCodeName": "北京", 
+            "skuName": "北京电信手机话费充值10元 快充", 
+            "class": null, 
+            "orderStatus": 1, 
+            "ispName": "电信", 
+            "chargeTitle": "仅支持查询本月订单", 
+            "orderStatusStyle": "#999999", 
+            "phoneNum": "15311426057", 
+            "chargeDetailDate": "20:31", 
+            "simpleSkuName": "10元", 
+            "chargePrice": "9.98", 
+            "orderId": 59472212458
+        }
+    ], 
+    "issuccess": 1, 
+    "totalPage": 1, 
+    "totalCount": 3, 
+    "error_msg": ""
+}

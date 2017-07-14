@@ -1,0 +1,34 @@
+{
+    "bannerList": [
+        {
+            "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t5905/204/4067344277/73638/18629e0/595cc82fN55646803.jpg", 
+            "class": null, 
+            "jumEntity": {
+                "jumpType": "2", 
+                "jumpUrl": "https://m.jr.jd.com/mjractivity/17391-2.html?sid=", 
+                "jumpShare": "", 
+                "class": null, 
+                "gobackRefresh": true, 
+                "shareType": "", 
+                "productId": ""
+            }
+        },
+       {
+       "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t4321/205/122448165/106794/37f37db8/58afa6a7Ne9493962.jpg?width=1125&height=375",
+       "class": null,
+       "jumEntity": {
+       "jumpType": "2",
+       "jumpUrl": "https://m.jr.jd.com/mjractivity/17391-2.html?sid=",
+       "jumpShare": "",
+       "class": null,
+       "gobackRefresh": true,
+       "shareType": "",
+       "productId": ""
+       }
+       }
+    ], 
+    "problem_title": "常见问题", 
+    "issuccess": 1, 
+    "problem_href": "http://m.jr.jd.com/spe/jrapphelp/helpcenter.html?qmCate=100409", 
+    "error_msg": ""
+}

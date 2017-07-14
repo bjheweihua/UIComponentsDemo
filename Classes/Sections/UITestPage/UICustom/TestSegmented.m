@@ -85,7 +85,7 @@
 //    
 //    // line
 //    CGFloat pointH = SINGLE_LINE_HEIGHT(1.0f);
-//    rect = CGRectMake(0, CGRectGetHeight(self.frame) - pointH, UIScreen_W, pointH);
+//    rect = CGRectMake(0, CGRectGetHeight(self.frame) - pointH, kMainScreenW, pointH);
 //    UIView* lineView = [[UIView alloc] initWithFrame:rect];
 //    lineView.backgroundColor = [UIColor jrColorWithHex:@"#eeeeee"];
 //    [self addSubview:lineView];
@@ -95,7 +95,7 @@
 //        [_lineView removeFromSuperview];
 //    }
 //    pointH = 2.0;//SINGLE_LINE_HEIGHT(1.0f);
-//    rect = CGRectMake(0, CGRectGetHeight(self.frame) - pointH, UIScreen_W/2.0, pointH);
+//    rect = CGRectMake(0, CGRectGetHeight(self.frame) - pointH, kMainScreenW/2.0, pointH);
 //    _lineView = [[UIView alloc] initWithFrame:rect];
 //    _lineView.backgroundColor = [UIColor jrColorWithHex:kBlueColor];
 //    [self addSubview:_lineView];

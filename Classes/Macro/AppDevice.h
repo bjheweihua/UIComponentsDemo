@@ -16,6 +16,14 @@
 #define kMainScreenW   ([[UIScreen mainScreen] bounds].size.width)
 #define kMainScreenH   ([[UIScreen mainScreen] bounds].size.height)
 
+#define kBlueColor            @"#508CEE"
+#define kBlueColorHighlighted @"#4B84E1"
+#define kIousBlueColor kBlueColor
+#define kLineColor     @"#dddddd"     // 线的颜色
+
+//线的高度 (h)像素的高度
+#define SINGLE_LINE_HEIGHT(h)           (h / [UIScreen mainScreen].scale)
+#define SINGLE_LINE_ADJUST_OFFSET(h)    ((h / [UIScreen mainScreen].scale) / 2)
 
 #define fequal(a,b) (fabs((a) - (b)) < FLT_EPSILON)
 #define fequalzero(a) (fabs(a) < FLT_EPSILON)

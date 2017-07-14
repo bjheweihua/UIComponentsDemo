@@ -1,0 +1,62 @@
+{
+    "orderDetails": [
+        {
+            "createTime": 1499948878000, 
+            "orderStatusName": "订单取消", 
+            "areaCode": 1, 
+            "isp": 2, 
+            "areaCodeName": "北京", 
+            "skuName": "电信全国流量充值5M全国通用手机流量包支持234G当月有效", 
+            "class": null, 
+            "orderStatus": 1, 
+            "ispName": "电信", 
+            "chargeTitle": "仅支持查询本月订单", 
+            "orderStatusStyle": "#999999", 
+            "phoneNum": "15311426057", 
+            "chargeDetailDate": "20:27", 
+            "simpleSkuName": "5M", 
+            "chargePrice": "0.95", 
+            "orderId": 59703600799
+        }, 
+        {
+            "createTime": 1499948836000, 
+            "orderStatusName": "订单取消", 
+            "areaCode": 1, 
+            "isp": 2, 
+            "areaCodeName": "北京", 
+            "skuName": "电信全国流量充值5M全国通用手机流量包支持234G当月有效", 
+            "class": null, 
+            "orderStatus": 1, 
+            "ispName": "电信", 
+            "chargeTitle": "仅支持查询本月订单", 
+            "orderStatusStyle": "#999999", 
+            "phoneNum": "15311426057", 
+            "chargeDetailDate": "20:27", 
+            "simpleSkuName": "5M", 
+            "chargePrice": "0.95", 
+            "orderId": 59747193629
+        }, 
+        {
+            "createTime": 1499945074000, 
+            "orderStatusName": "订单取消", 
+            "areaCode": 1, 
+            "isp": 2, 
+            "areaCodeName": "北京", 
+            "skuName": "北京电信流量充值500M国内通用500M电信流量充值 3G4G叠加流量包", 
+            "class": null, 
+            "orderStatus": 1, 
+            "ispName": "电信", 
+            "chargeTitle": "仅支持查询本月订单", 
+            "orderStatusStyle": "#999999", 
+            "phoneNum": "15311426057", 
+            "chargeDetailDate": "19:24", 
+            "simpleSkuName": "500M", 
+            "chargePrice": "28.50", 
+            "orderId": 59752448342
+        }
+    ], 
+    "issuccess": 1, 
+    "totalPage": 1, 
+    "totalCount": 3, 
+    "error_msg": ""
+}

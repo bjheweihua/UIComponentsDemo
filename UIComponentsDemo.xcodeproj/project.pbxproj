@@ -7,7 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D96755881E6BDE7F00D560C6 /* TestHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96755871E6BDE7F00D560C6 /* TestHeaderView.m */; };
+		D96449381F1770AB003FED79 /* MobileTopUpHistoryRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448E81F1770AB003FED79 /* MobileTopUpHistoryRecordManager.m */; };
+		D96449391F1770AB003FED79 /* HistoryRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448EB1F1770AB003FED79 /* HistoryRecordCell.m */; };
+		D964493A1F1770AB003FED79 /* HistoryRecordClearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448ED1F1770AB003FED79 /* HistoryRecordClearCell.m */; };
+		D964493B1F1770AB003FED79 /* HistoryRecordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448EF1F1770AB003FED79 /* HistoryRecordEntity.m */; };
+		D964493C1F1770AB003FED79 /* HistoryRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448F11F1770AB003FED79 /* HistoryRecordView.m */; };
+		D964493D1F1770AB003FED79 /* MobileTopUpNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448F51F1770AB003FED79 /* MobileTopUpNetwork.m */; };
+		D964493E1F1770AB003FED79 /* JRIousInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448F81F1770AB003FED79 /* JRIousInputTextField.m */; };
+		D964493F1F1770AB003FED79 /* MobileUIBannerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448FB1F1770AB003FED79 /* MobileUIBannerCollectionCell.m */; };
+		D96449401F1770AB003FED79 /* UIBannerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448FD1F1770AB003FED79 /* UIBannerEntity.m */; };
+		D96449411F1770AB003FED79 /* UIBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96448FF1F1770AB003FED79 /* UIBannerView.m */; };
+		D96449491F1770AB003FED79 /* MobileTopUpRecordSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449151F1770AB003FED79 /* MobileTopUpRecordSegmentedView.m */; };
+		D964494A1F1770AB003FED79 /* MobileTopUpRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449171F1770AB003FED79 /* MobileTopUpRecordView.m */; };
+		D964494B1F1770AB003FED79 /* MobileTopUpRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449191F1770AB003FED79 /* MobileTopUpRecordViewController.m */; };
+		D964494C1F1770AB003FED79 /* MobileTopUpRecordEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D964491C1F1770AB003FED79 /* MobileTopUpRecordEntity.m */; };
+		D964494D1F1770AB003FED79 /* MobileTopUpRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D964491F1F1770AB003FED79 /* MobileTopUpRecordCell.m */; };
+		D964494E1F1770AB003FED79 /* MobileTopUpRecordHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449211F1770AB003FED79 /* MobileTopUpRecordHeaderView.m */; };
+		D964494F1F1770AB003FED79 /* MobileTrafficTopUpSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449251F1770AB003FED79 /* MobileTrafficTopUpSegmented.m */; };
+		D96449501F1770AB003FED79 /* MobileTrafficTopUpTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449271F1770AB003FED79 /* MobileTrafficTopUpTableView.m */; };
+		D96449511F1770AB003FED79 /* MobileTrafficTopUpViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449291F1770AB003FED79 /* MobileTrafficTopUpViewCell.m */; };
+		D96449521F1770AB003FED79 /* MobileTrafficTopUpViewController+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D964492B1F1770AB003FED79 /* MobileTrafficTopUpViewController+Manager.m */; };
+		D96449531F1770AB003FED79 /* MobileTrafficTopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D964492D1F1770AB003FED79 /* MobileTrafficTopUpViewController.m */; };
+		D96449541F1770AB003FED79 /* MobileTrafficEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449301F1770AB003FED79 /* MobileTrafficEntity.m */; };
+		D96449551F1770AB003FED79 /* MobileTrafficTopUpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449331F1770AB003FED79 /* MobileTrafficTopUpCell.m */; };
+		D96449561F1770AB003FED79 /* MobileTrafficTopUpFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449351F1770AB003FED79 /* MobileTrafficTopUpFooter.m */; };
+		D96449571F1770AB003FED79 /* MobileTrafficTopUpHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449371F1770AB003FED79 /* MobileTrafficTopUpHeader.m */; };
+		D964495A1F17B426003FED79 /* UITextField+JRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449591F17B426003FED79 /* UITextField+JRAddition.m */; };
+		D964496A1F17B63D003FED79 /* BaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449691F17B63D003FED79 /* BaseTableViewHeaderFooterView.m */; };
+		D96449DA1F187488003FED79 /* CfRefreFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449A71F187488003FED79 /* CfRefreFooterView.m */; };
+		D96449DB1F187488003FED79 /* DCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449AB1F187488003FED79 /* DCCollectionViewCell.m */; };
+		D96449DC1F187488003FED79 /* DCCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449AD1F187488003FED79 /* DCCycleScrollView.m */; };
+		D96449DD1F187488003FED79 /* DCScrollPageControll.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449B01F187488003FED79 /* DCScrollPageControll.m */; };
+		D96449DE1F187488003FED79 /* DCTAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449B21F187488003FED79 /* DCTAAbstractDotView.m */; };
+		D96449DF1F187488003FED79 /* DCTAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449B41F187488003FED79 /* DCTAAnimatedDotView.m */; };
+		D96449E01F187488003FED79 /* DCTADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449B61F187488003FED79 /* DCTADotView.m */; };
+		D96449E11F187488003FED79 /* DCTAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449B81F187488003FED79 /* DCTAPageControl.m */; };
+		D96449E21F187488003FED79 /* DCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449BA1F187488003FED79 /* DCPageControl.m */; };
+		D96449E31F187488003FED79 /* DCVerCycleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449BD1F187488003FED79 /* DCVerCycleModel.m */; };
+		D96449E41F187488003FED79 /* DCVerCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449BF1F187488003FED79 /* DCVerCycleScrollView.m */; };
+		D96449E51F187488003FED79 /* JRPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449C21F187488003FED79 /* JRPageControl.m */; };
+		D96449E71F187488003FED79 /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = D96449C71F187488003FED79 /* License.html */; };
+		D96449E81F187488003FED79 /* RegexKitLite.html in Resources */ = {isa = PBXBuildFile; fileRef = D96449C91F187488003FED79 /* RegexKitLite.html */; };
+		D96449E91F187488003FED79 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449CA1F187488003FED79 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D96449EA1F187488003FED79 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449CE1F187488003FED79 /* SRRefreshView.m */; };
+		D96449EB1F187488003FED79 /* SRSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449D01F187488003FED79 /* SRSlimeView.m */; };
+		D96449EC1F187488003FED79 /* UIScrollView+headerRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449D21F187488003FED79 /* UIScrollView+headerRefresh.m */; };
+		D96449ED1F187488003FED79 /* UitlsCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449D51F187488003FED79 /* UitlsCommon.m */; };
+		D96449EE1F187488003FED79 /* JDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449D81F187488003FED79 /* JDUtil.m */; };
+		D96449F61F187599003FED79 /* SystemGrantedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449F51F187599003FED79 /* SystemGrantedManager.m */; };
+		D9644A0E1F1879DF003FED79 /* GestureUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449FA1F1879DF003FED79 /* GestureUITableView.m */; };
+		D9644A0F1F1879DF003FED79 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449FC1F1879DF003FED79 /* ListViewController.m */; };
+		D9644A101F1879DF003FED79 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96449FE1F1879DF003FED79 /* TestViewController.m */; };
+		D9644A111F1879DF003FED79 /* TestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A011F1879DF003FED79 /* TestEntity.m */; };
+		D9644A121F1879DF003FED79 /* TestSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A041F1879DF003FED79 /* TestSegmented.m */; };
+		D9644A131F1879DF003FED79 /* TestGridCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A071F1879DF003FED79 /* TestGridCollectionCell.m */; };
+		D9644A141F1879DF003FED79 /* TestGridTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A091F1879DF003FED79 /* TestGridTableCell.m */; };
+		D9644A151F1879DF003FED79 /* TestHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A0B1F1879DF003FED79 /* TestHeaderView.m */; };
+		D9644A161F1879DF003FED79 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A0D1F1879DF003FED79 /* TestTableViewCell.m */; };
+		D9644A291F187A22003FED79 /* MobileTopUpViewController+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A1A1F187A22003FED79 /* MobileTopUpViewController+Manager.m */; };
+		D9644A2A1F187A22003FED79 /* MobileTopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A1C1F187A22003FED79 /* MobileTopUpViewController.m */; };
+		D9644A2B1F187A22003FED79 /* BillEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A1F1F187A22003FED79 /* BillEntity.m */; };
+		D9644A2C1F187A22003FED79 /* MobileGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A221F187A22003FED79 /* MobileGridView.m */; };
+		D9644A2D1F187A22003FED79 /* MobileNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A241F187A22003FED79 /* MobileNumberCell.m */; };
+		D9644A2E1F187A22003FED79 /* MobileTopUpGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A261F187A22003FED79 /* MobileTopUpGridCell.m */; };
+		D9644A2F1F187A22003FED79 /* MobileTopUpHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9644A281F187A22003FED79 /* MobileTopUpHeaderView.m */; };
+		D9644A361F187A5E003FED79 /* billOrderList.json in Resources */ = {isa = PBXBuildFile; fileRef = D9644A311F187A5E003FED79 /* billOrderList.json */; };
+		D9644A371F187A5E003FED79 /* bannerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D9644A321F187A5E003FED79 /* bannerList.json */; };
+		D9644A381F187A5E003FED79 /* findBillList.json in Resources */ = {isa = PBXBuildFile; fileRef = D9644A331F187A5E003FED79 /* findBillList.json */; };
+		D9644A391F187A5E003FED79 /* findLiuLiangInfos.json in Resources */ = {isa = PBXBuildFile; fileRef = D9644A341F187A5E003FED79 /* findLiuLiangInfos.json */; };
+		D9644A3A1F187A5E003FED79 /* flowOrderList.json in Resources */ = {isa = PBXBuildFile; fileRef = D9644A351F187A5E003FED79 /* flowOrderList.json */; };
+		D9644A3C1F18A379003FED79 /* MobileTopUp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9644A3B1F18A379003FED79 /* MobileTopUp.xcassets */; };
 		D967558A1E6BEA2E00D560C6 /* BaseController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96755891E6BEA2E00D560C6 /* BaseController.xcassets */; };
 		D976BA391E65630400BE0B91 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D976BA381E65630400BE0B91 /* NSTimer+Blocks.m */; };
 		D976BA431E659CD000BE0B91 /* UIElasticView.m in Sources */ = {isa = PBXBuildFile; fileRef = D976BA401E659CD000BE0B91 /* UIElasticView.m */; };
@@ -74,20 +143,146 @@
 		D9C401101E66758900E0AE7A /* UITableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C4010F1E66758900E0AE7A /* UITableHeaderCell.m */; };
 		D9C401131E667E4200E0AE7A /* UITableFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C401121E667E4200E0AE7A /* UITableFooterCell.m */; };
 		D9C401171E66A5F200E0AE7A /* UIBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C401161E66A5F200E0AE7A /* UIBaseCollectionViewCell.m */; };
-		D9C401241E67DB7300E0AE7A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C401211E67DB7300E0AE7A /* TestViewController.m */; };
-		D9C401271E67DC0800E0AE7A /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C401261E67DC0800E0AE7A /* TestTableViewCell.m */; };
-		D9C4012A1E67EADE00E0AE7A /* TestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C401291E67EADE00E0AE7A /* TestEntity.m */; };
-		D9C4012D1E67F66600E0AE7A /* TestGridTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C4012C1E67F66600E0AE7A /* TestGridTableCell.m */; };
-		D9C401301E67F72300E0AE7A /* TestGridCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C4012F1E67F72300E0AE7A /* TestGridCollectionCell.m */; };
-		D9C401341E67FADD00E0AE7A /* TestSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C401331E67FADD00E0AE7A /* TestSegmented.m */; };
-		D9EA29341E7967030035396A /* GestureUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EA29331E7967030035396A /* GestureUITableView.m */; };
 		D9EA29461E7AA5F50035396A /* UINoticeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EA29411E7AA5F50035396A /* UINoticeTableCell.m */; };
 		D9EA29471E7AA5F50035396A /* UINoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EA29431E7AA5F50035396A /* UINoticeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D96755861E6BDE7F00D560C6 /* TestHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeaderView.h; sourceTree = "<group>"; };
-		D96755871E6BDE7F00D560C6 /* TestHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeaderView.m; sourceTree = "<group>"; };
+		D96448E71F1770AB003FED79 /* MobileTopUpHistoryRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpHistoryRecordManager.h; sourceTree = "<group>"; };
+		D96448E81F1770AB003FED79 /* MobileTopUpHistoryRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpHistoryRecordManager.m; sourceTree = "<group>"; };
+		D96448EA1F1770AB003FED79 /* HistoryRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRecordCell.h; sourceTree = "<group>"; };
+		D96448EB1F1770AB003FED79 /* HistoryRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryRecordCell.m; sourceTree = "<group>"; };
+		D96448EC1F1770AB003FED79 /* HistoryRecordClearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRecordClearCell.h; sourceTree = "<group>"; };
+		D96448ED1F1770AB003FED79 /* HistoryRecordClearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryRecordClearCell.m; sourceTree = "<group>"; };
+		D96448EE1F1770AB003FED79 /* HistoryRecordEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRecordEntity.h; sourceTree = "<group>"; };
+		D96448EF1F1770AB003FED79 /* HistoryRecordEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryRecordEntity.m; sourceTree = "<group>"; };
+		D96448F01F1770AB003FED79 /* HistoryRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRecordView.h; sourceTree = "<group>"; };
+		D96448F11F1770AB003FED79 /* HistoryRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryRecordView.m; sourceTree = "<group>"; };
+		D96448F21F1770AB003FED79 /* HistoryRecordViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRecordViewDelegate.h; sourceTree = "<group>"; };
+		D96448F41F1770AB003FED79 /* MobileTopUpNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpNetwork.h; sourceTree = "<group>"; };
+		D96448F51F1770AB003FED79 /* MobileTopUpNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpNetwork.m; sourceTree = "<group>"; };
+		D96448F71F1770AB003FED79 /* JRIousInputTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRIousInputTextField.h; sourceTree = "<group>"; };
+		D96448F81F1770AB003FED79 /* JRIousInputTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRIousInputTextField.m; sourceTree = "<group>"; };
+		D96448FA1F1770AB003FED79 /* MobileUIBannerCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileUIBannerCollectionCell.h; sourceTree = "<group>"; };
+		D96448FB1F1770AB003FED79 /* MobileUIBannerCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileUIBannerCollectionCell.m; sourceTree = "<group>"; };
+		D96448FC1F1770AB003FED79 /* UIBannerEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBannerEntity.h; sourceTree = "<group>"; };
+		D96448FD1F1770AB003FED79 /* UIBannerEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBannerEntity.m; sourceTree = "<group>"; };
+		D96448FE1F1770AB003FED79 /* UIBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBannerView.h; sourceTree = "<group>"; };
+		D96448FF1F1770AB003FED79 /* UIBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBannerView.m; sourceTree = "<group>"; };
+		D96449141F1770AB003FED79 /* MobileTopUpRecordSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpRecordSegmentedView.h; sourceTree = "<group>"; };
+		D96449151F1770AB003FED79 /* MobileTopUpRecordSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpRecordSegmentedView.m; sourceTree = "<group>"; };
+		D96449161F1770AB003FED79 /* MobileTopUpRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpRecordView.h; sourceTree = "<group>"; };
+		D96449171F1770AB003FED79 /* MobileTopUpRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpRecordView.m; sourceTree = "<group>"; };
+		D96449181F1770AB003FED79 /* MobileTopUpRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpRecordViewController.h; sourceTree = "<group>"; };
+		D96449191F1770AB003FED79 /* MobileTopUpRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpRecordViewController.m; sourceTree = "<group>"; };
+		D964491B1F1770AB003FED79 /* MobileTopUpRecordEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpRecordEntity.h; sourceTree = "<group>"; };
+		D964491C1F1770AB003FED79 /* MobileTopUpRecordEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpRecordEntity.m; sourceTree = "<group>"; };
+		D964491E1F1770AB003FED79 /* MobileTopUpRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpRecordCell.h; sourceTree = "<group>"; };
+		D964491F1F1770AB003FED79 /* MobileTopUpRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpRecordCell.m; sourceTree = "<group>"; };
+		D96449201F1770AB003FED79 /* MobileTopUpRecordHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpRecordHeaderView.h; sourceTree = "<group>"; };
+		D96449211F1770AB003FED79 /* MobileTopUpRecordHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpRecordHeaderView.m; sourceTree = "<group>"; };
+		D96449241F1770AB003FED79 /* MobileTrafficTopUpSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficTopUpSegmented.h; sourceTree = "<group>"; };
+		D96449251F1770AB003FED79 /* MobileTrafficTopUpSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficTopUpSegmented.m; sourceTree = "<group>"; };
+		D96449261F1770AB003FED79 /* MobileTrafficTopUpTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficTopUpTableView.h; sourceTree = "<group>"; };
+		D96449271F1770AB003FED79 /* MobileTrafficTopUpTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficTopUpTableView.m; sourceTree = "<group>"; };
+		D96449281F1770AB003FED79 /* MobileTrafficTopUpViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficTopUpViewCell.h; sourceTree = "<group>"; };
+		D96449291F1770AB003FED79 /* MobileTrafficTopUpViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficTopUpViewCell.m; sourceTree = "<group>"; };
+		D964492A1F1770AB003FED79 /* MobileTrafficTopUpViewController+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileTrafficTopUpViewController+Manager.h"; sourceTree = "<group>"; };
+		D964492B1F1770AB003FED79 /* MobileTrafficTopUpViewController+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MobileTrafficTopUpViewController+Manager.m"; sourceTree = "<group>"; };
+		D964492C1F1770AB003FED79 /* MobileTrafficTopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficTopUpViewController.h; sourceTree = "<group>"; };
+		D964492D1F1770AB003FED79 /* MobileTrafficTopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficTopUpViewController.m; sourceTree = "<group>"; };
+		D964492F1F1770AB003FED79 /* MobileTrafficEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficEntity.h; sourceTree = "<group>"; };
+		D96449301F1770AB003FED79 /* MobileTrafficEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficEntity.m; sourceTree = "<group>"; };
+		D96449321F1770AB003FED79 /* MobileTrafficTopUpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficTopUpCell.h; sourceTree = "<group>"; };
+		D96449331F1770AB003FED79 /* MobileTrafficTopUpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficTopUpCell.m; sourceTree = "<group>"; };
+		D96449341F1770AB003FED79 /* MobileTrafficTopUpFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficTopUpFooter.h; sourceTree = "<group>"; };
+		D96449351F1770AB003FED79 /* MobileTrafficTopUpFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficTopUpFooter.m; sourceTree = "<group>"; };
+		D96449361F1770AB003FED79 /* MobileTrafficTopUpHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTrafficTopUpHeader.h; sourceTree = "<group>"; };
+		D96449371F1770AB003FED79 /* MobileTrafficTopUpHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTrafficTopUpHeader.m; sourceTree = "<group>"; };
+		D96449581F17B426003FED79 /* UITextField+JRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JRAddition.h"; sourceTree = "<group>"; };
+		D96449591F17B426003FED79 /* UITextField+JRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JRAddition.m"; sourceTree = "<group>"; };
+		D96449681F17B63D003FED79 /* BaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		D96449691F17B63D003FED79 /* BaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		D96449A61F187488003FED79 /* CfRefreFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CfRefreFooterView.h; sourceTree = "<group>"; };
+		D96449A71F187488003FED79 /* CfRefreFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CfRefreFooterView.m; sourceTree = "<group>"; };
+		D96449AA1F187488003FED79 /* DCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCollectionViewCell.h; sourceTree = "<group>"; };
+		D96449AB1F187488003FED79 /* DCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCollectionViewCell.m; sourceTree = "<group>"; };
+		D96449AC1F187488003FED79 /* DCCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCycleScrollView.h; sourceTree = "<group>"; };
+		D96449AD1F187488003FED79 /* DCCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCycleScrollView.m; sourceTree = "<group>"; };
+		D96449AF1F187488003FED79 /* DCScrollPageControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCScrollPageControll.h; sourceTree = "<group>"; };
+		D96449B01F187488003FED79 /* DCScrollPageControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCScrollPageControll.m; sourceTree = "<group>"; };
+		D96449B11F187488003FED79 /* DCTAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTAAbstractDotView.h; sourceTree = "<group>"; };
+		D96449B21F187488003FED79 /* DCTAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTAAbstractDotView.m; sourceTree = "<group>"; };
+		D96449B31F187488003FED79 /* DCTAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTAAnimatedDotView.h; sourceTree = "<group>"; };
+		D96449B41F187488003FED79 /* DCTAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTAAnimatedDotView.m; sourceTree = "<group>"; };
+		D96449B51F187488003FED79 /* DCTADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTADotView.h; sourceTree = "<group>"; };
+		D96449B61F187488003FED79 /* DCTADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTADotView.m; sourceTree = "<group>"; };
+		D96449B71F187488003FED79 /* DCTAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTAPageControl.h; sourceTree = "<group>"; };
+		D96449B81F187488003FED79 /* DCTAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTAPageControl.m; sourceTree = "<group>"; };
+		D96449B91F187488003FED79 /* DCPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPageControl.h; sourceTree = "<group>"; };
+		D96449BA1F187488003FED79 /* DCPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPageControl.m; sourceTree = "<group>"; };
+		D96449BC1F187488003FED79 /* DCVerCycleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCVerCycleModel.h; sourceTree = "<group>"; };
+		D96449BD1F187488003FED79 /* DCVerCycleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCVerCycleModel.m; sourceTree = "<group>"; };
+		D96449BE1F187488003FED79 /* DCVerCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCVerCycleScrollView.h; sourceTree = "<group>"; };
+		D96449BF1F187488003FED79 /* DCVerCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCVerCycleScrollView.m; sourceTree = "<group>"; };
+		D96449C11F187488003FED79 /* JRPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRPageControl.h; sourceTree = "<group>"; };
+		D96449C21F187488003FED79 /* JRPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRPageControl.m; sourceTree = "<group>"; };
+		D96449C71F187488003FED79 /* License.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = License.html; sourceTree = "<group>"; };
+		D96449C81F187488003FED79 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		D96449C91F187488003FED79 /* RegexKitLite.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = "<group>"; };
+		D96449CA1F187488003FED79 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		D96449CC1F187488003FED79 /* SRDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDefine.h; sourceTree = "<group>"; };
+		D96449CD1F187488003FED79 /* SRRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRefreshView.h; sourceTree = "<group>"; };
+		D96449CE1F187488003FED79 /* SRRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRefreshView.m; sourceTree = "<group>"; };
+		D96449CF1F187488003FED79 /* SRSlimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSlimeView.h; sourceTree = "<group>"; };
+		D96449D01F187488003FED79 /* SRSlimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSlimeView.m; sourceTree = "<group>"; };
+		D96449D11F187488003FED79 /* UIScrollView+headerRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+headerRefresh.h"; sourceTree = "<group>"; };
+		D96449D21F187488003FED79 /* UIScrollView+headerRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+headerRefresh.m"; sourceTree = "<group>"; };
+		D96449D41F187488003FED79 /* UitlsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UitlsCommon.h; sourceTree = "<group>"; };
+		D96449D51F187488003FED79 /* UitlsCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UitlsCommon.m; sourceTree = "<group>"; };
+		D96449D71F187488003FED79 /* JDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUtil.h; sourceTree = "<group>"; };
+		D96449D81F187488003FED79 /* JDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUtil.m; sourceTree = "<group>"; };
+		D96449D91F187488003FED79 /* JDUtilHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUtilHeaders.h; sourceTree = "<group>"; };
+		D96449F41F187599003FED79 /* SystemGrantedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemGrantedManager.h; sourceTree = "<group>"; };
+		D96449F51F187599003FED79 /* SystemGrantedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemGrantedManager.m; sourceTree = "<group>"; };
+		D96449F91F1879DF003FED79 /* GestureUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureUITableView.h; sourceTree = "<group>"; };
+		D96449FA1F1879DF003FED79 /* GestureUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureUITableView.m; sourceTree = "<group>"; };
+		D96449FB1F1879DF003FED79 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		D96449FC1F1879DF003FED79 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		D96449FD1F1879DF003FED79 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D96449FE1F1879DF003FED79 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D9644A001F1879DF003FED79 /* TestEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEntity.h; sourceTree = "<group>"; };
+		D9644A011F1879DF003FED79 /* TestEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEntity.m; sourceTree = "<group>"; };
+		D9644A031F1879DF003FED79 /* TestSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSegmented.h; sourceTree = "<group>"; };
+		D9644A041F1879DF003FED79 /* TestSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSegmented.m; sourceTree = "<group>"; };
+		D9644A061F1879DF003FED79 /* TestGridCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGridCollectionCell.h; sourceTree = "<group>"; };
+		D9644A071F1879DF003FED79 /* TestGridCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGridCollectionCell.m; sourceTree = "<group>"; };
+		D9644A081F1879DF003FED79 /* TestGridTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGridTableCell.h; sourceTree = "<group>"; };
+		D9644A091F1879DF003FED79 /* TestGridTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGridTableCell.m; sourceTree = "<group>"; };
+		D9644A0A1F1879DF003FED79 /* TestHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeaderView.h; sourceTree = "<group>"; };
+		D9644A0B1F1879DF003FED79 /* TestHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeaderView.m; sourceTree = "<group>"; };
+		D9644A0C1F1879DF003FED79 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		D9644A0D1F1879DF003FED79 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		D9644A191F187A22003FED79 /* MobileTopUpViewController+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobileTopUpViewController+Manager.h"; sourceTree = "<group>"; };
+		D9644A1A1F187A22003FED79 /* MobileTopUpViewController+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MobileTopUpViewController+Manager.m"; sourceTree = "<group>"; };
+		D9644A1B1F187A22003FED79 /* MobileTopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpViewController.h; sourceTree = "<group>"; };
+		D9644A1C1F187A22003FED79 /* MobileTopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpViewController.m; sourceTree = "<group>"; };
+		D9644A1E1F187A22003FED79 /* BillEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillEntity.h; sourceTree = "<group>"; };
+		D9644A1F1F187A22003FED79 /* BillEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillEntity.m; sourceTree = "<group>"; };
+		D9644A211F187A22003FED79 /* MobileGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileGridView.h; sourceTree = "<group>"; };
+		D9644A221F187A22003FED79 /* MobileGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileGridView.m; sourceTree = "<group>"; };
+		D9644A231F187A22003FED79 /* MobileNumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileNumberCell.h; sourceTree = "<group>"; };
+		D9644A241F187A22003FED79 /* MobileNumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileNumberCell.m; sourceTree = "<group>"; };
+		D9644A251F187A22003FED79 /* MobileTopUpGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpGridCell.h; sourceTree = "<group>"; };
+		D9644A261F187A22003FED79 /* MobileTopUpGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpGridCell.m; sourceTree = "<group>"; };
+		D9644A271F187A22003FED79 /* MobileTopUpHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileTopUpHeaderView.h; sourceTree = "<group>"; };
+		D9644A281F187A22003FED79 /* MobileTopUpHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileTopUpHeaderView.m; sourceTree = "<group>"; };
+		D9644A311F187A5E003FED79 /* billOrderList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = billOrderList.json; sourceTree = "<group>"; };
+		D9644A321F187A5E003FED79 /* bannerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bannerList.json; sourceTree = "<group>"; };
+		D9644A331F187A5E003FED79 /* findBillList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = findBillList.json; sourceTree = "<group>"; };
+		D9644A341F187A5E003FED79 /* findLiuLiangInfos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = findLiuLiangInfos.json; sourceTree = "<group>"; };
+		D9644A351F187A5E003FED79 /* flowOrderList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowOrderList.json; sourceTree = "<group>"; };
+		D9644A3B1F18A379003FED79 /* MobileTopUp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MobileTopUp.xcassets; sourceTree = "<group>"; };
 		D96755891E6BEA2E00D560C6 /* BaseController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BaseController.xcassets; sourceTree = "<group>"; };
 		D976BA371E65630400BE0B91 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
 		D976BA381E65630400BE0B91 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
@@ -212,20 +407,6 @@
 		D9C401121E667E4200E0AE7A /* UITableFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableFooterCell.m; sourceTree = "<group>"; };
 		D9C401151E66A5F200E0AE7A /* UIBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBaseCollectionViewCell.h; sourceTree = "<group>"; };
 		D9C401161E66A5F200E0AE7A /* UIBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBaseCollectionViewCell.m; sourceTree = "<group>"; };
-		D9C401201E67DB7300E0AE7A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		D9C401211E67DB7300E0AE7A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		D9C401251E67DC0800E0AE7A /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
-		D9C401261E67DC0800E0AE7A /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
-		D9C401281E67EADE00E0AE7A /* TestEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEntity.h; sourceTree = "<group>"; };
-		D9C401291E67EADE00E0AE7A /* TestEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEntity.m; sourceTree = "<group>"; };
-		D9C4012B1E67F66600E0AE7A /* TestGridTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGridTableCell.h; sourceTree = "<group>"; };
-		D9C4012C1E67F66600E0AE7A /* TestGridTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGridTableCell.m; sourceTree = "<group>"; };
-		D9C4012E1E67F72300E0AE7A /* TestGridCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGridCollectionCell.h; sourceTree = "<group>"; };
-		D9C4012F1E67F72300E0AE7A /* TestGridCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGridCollectionCell.m; sourceTree = "<group>"; };
-		D9C401321E67FADD00E0AE7A /* TestSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSegmented.h; sourceTree = "<group>"; };
-		D9C401331E67FADD00E0AE7A /* TestSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSegmented.m; sourceTree = "<group>"; };
-		D9EA29321E7967030035396A /* GestureUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureUITableView.h; sourceTree = "<group>"; };
-		D9EA29331E7967030035396A /* GestureUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureUITableView.m; sourceTree = "<group>"; };
 		D9EA29401E7AA5F50035396A /* UINoticeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINoticeTableCell.h; sourceTree = "<group>"; };
 		D9EA29411E7AA5F50035396A /* UINoticeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINoticeTableCell.m; sourceTree = "<group>"; };
 		D9EA29421E7AA5F50035396A /* UINoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINoticeView.h; sourceTree = "<group>"; };
@@ -243,6 +424,430 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D96448E41F1770AB003FED79 /* MobileTopUp */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A301F187A5E003FED79 /* Resource */,
+				D9644A171F187A22003FED79 /* MobileTopUp */,
+				D96448E51F1770AB003FED79 /* Common */,
+				D96449121F1770AB003FED79 /* MobileTopUpRecord */,
+				D96449221F1770AB003FED79 /* MobileTrafficTopUp */,
+			);
+			path = MobileTopUp;
+			sourceTree = "<group>";
+		};
+		D96448E51F1770AB003FED79 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D96448E61F1770AB003FED79 /* HistoryRecord */,
+				D96448E91F1770AB003FED79 /* HistoryRecordView */,
+				D96448F31F1770AB003FED79 /* Network */,
+				D96448F61F1770AB003FED79 /* UI */,
+				D96448F91F1770AB003FED79 /* UIBannerView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D96448E61F1770AB003FED79 /* HistoryRecord */ = {
+			isa = PBXGroup;
+			children = (
+				D96448E71F1770AB003FED79 /* MobileTopUpHistoryRecordManager.h */,
+				D96448E81F1770AB003FED79 /* MobileTopUpHistoryRecordManager.m */,
+			);
+			path = HistoryRecord;
+			sourceTree = "<group>";
+		};
+		D96448E91F1770AB003FED79 /* HistoryRecordView */ = {
+			isa = PBXGroup;
+			children = (
+				D96448EA1F1770AB003FED79 /* HistoryRecordCell.h */,
+				D96448EB1F1770AB003FED79 /* HistoryRecordCell.m */,
+				D96448EC1F1770AB003FED79 /* HistoryRecordClearCell.h */,
+				D96448ED1F1770AB003FED79 /* HistoryRecordClearCell.m */,
+				D96448EE1F1770AB003FED79 /* HistoryRecordEntity.h */,
+				D96448EF1F1770AB003FED79 /* HistoryRecordEntity.m */,
+				D96448F01F1770AB003FED79 /* HistoryRecordView.h */,
+				D96448F11F1770AB003FED79 /* HistoryRecordView.m */,
+				D96448F21F1770AB003FED79 /* HistoryRecordViewDelegate.h */,
+			);
+			path = HistoryRecordView;
+			sourceTree = "<group>";
+		};
+		D96448F31F1770AB003FED79 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D96448F41F1770AB003FED79 /* MobileTopUpNetwork.h */,
+				D96448F51F1770AB003FED79 /* MobileTopUpNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D96448F61F1770AB003FED79 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D96448F71F1770AB003FED79 /* JRIousInputTextField.h */,
+				D96448F81F1770AB003FED79 /* JRIousInputTextField.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D96448F91F1770AB003FED79 /* UIBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				D96448FA1F1770AB003FED79 /* MobileUIBannerCollectionCell.h */,
+				D96448FB1F1770AB003FED79 /* MobileUIBannerCollectionCell.m */,
+				D96448FC1F1770AB003FED79 /* UIBannerEntity.h */,
+				D96448FD1F1770AB003FED79 /* UIBannerEntity.m */,
+				D96448FE1F1770AB003FED79 /* UIBannerView.h */,
+				D96448FF1F1770AB003FED79 /* UIBannerView.m */,
+			);
+			path = UIBannerView;
+			sourceTree = "<group>";
+		};
+		D96449121F1770AB003FED79 /* MobileTopUpRecord */ = {
+			isa = PBXGroup;
+			children = (
+				D96449131F1770AB003FED79 /* Controller */,
+				D964491A1F1770AB003FED79 /* Model */,
+				D964491D1F1770AB003FED79 /* Views */,
+			);
+			path = MobileTopUpRecord;
+			sourceTree = "<group>";
+		};
+		D96449131F1770AB003FED79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D96449141F1770AB003FED79 /* MobileTopUpRecordSegmentedView.h */,
+				D96449151F1770AB003FED79 /* MobileTopUpRecordSegmentedView.m */,
+				D96449161F1770AB003FED79 /* MobileTopUpRecordView.h */,
+				D96449171F1770AB003FED79 /* MobileTopUpRecordView.m */,
+				D96449181F1770AB003FED79 /* MobileTopUpRecordViewController.h */,
+				D96449191F1770AB003FED79 /* MobileTopUpRecordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D964491A1F1770AB003FED79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D964491B1F1770AB003FED79 /* MobileTopUpRecordEntity.h */,
+				D964491C1F1770AB003FED79 /* MobileTopUpRecordEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D964491D1F1770AB003FED79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D964491E1F1770AB003FED79 /* MobileTopUpRecordCell.h */,
+				D964491F1F1770AB003FED79 /* MobileTopUpRecordCell.m */,
+				D96449201F1770AB003FED79 /* MobileTopUpRecordHeaderView.h */,
+				D96449211F1770AB003FED79 /* MobileTopUpRecordHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D96449221F1770AB003FED79 /* MobileTrafficTopUp */ = {
+			isa = PBXGroup;
+			children = (
+				D96449231F1770AB003FED79 /* Controller */,
+				D964492E1F1770AB003FED79 /* Model */,
+				D96449311F1770AB003FED79 /* Views */,
+			);
+			path = MobileTrafficTopUp;
+			sourceTree = "<group>";
+		};
+		D96449231F1770AB003FED79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D96449241F1770AB003FED79 /* MobileTrafficTopUpSegmented.h */,
+				D96449251F1770AB003FED79 /* MobileTrafficTopUpSegmented.m */,
+				D96449261F1770AB003FED79 /* MobileTrafficTopUpTableView.h */,
+				D96449271F1770AB003FED79 /* MobileTrafficTopUpTableView.m */,
+				D96449281F1770AB003FED79 /* MobileTrafficTopUpViewCell.h */,
+				D96449291F1770AB003FED79 /* MobileTrafficTopUpViewCell.m */,
+				D964492A1F1770AB003FED79 /* MobileTrafficTopUpViewController+Manager.h */,
+				D964492B1F1770AB003FED79 /* MobileTrafficTopUpViewController+Manager.m */,
+				D964492C1F1770AB003FED79 /* MobileTrafficTopUpViewController.h */,
+				D964492D1F1770AB003FED79 /* MobileTrafficTopUpViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D964492E1F1770AB003FED79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D964492F1F1770AB003FED79 /* MobileTrafficEntity.h */,
+				D96449301F1770AB003FED79 /* MobileTrafficEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D96449311F1770AB003FED79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D96449321F1770AB003FED79 /* MobileTrafficTopUpCell.h */,
+				D96449331F1770AB003FED79 /* MobileTrafficTopUpCell.m */,
+				D96449341F1770AB003FED79 /* MobileTrafficTopUpFooter.h */,
+				D96449351F1770AB003FED79 /* MobileTrafficTopUpFooter.m */,
+				D96449361F1770AB003FED79 /* MobileTrafficTopUpHeader.h */,
+				D96449371F1770AB003FED79 /* MobileTrafficTopUpHeader.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D96449A41F187488003FED79 /* Uitls */ = {
+			isa = PBXGroup;
+			children = (
+				D96449F31F187599003FED79 /* SystemGrantedManager */,
+				D96449A51F187488003FED79 /* CfRefreFooterView */,
+				D96449A81F187488003FED79 /* CycleScrollView */,
+				D96449C01F187488003FED79 /* JRPageControl */,
+				D96449C61F187488003FED79 /* RegexKitLite */,
+				D96449CB1F187488003FED79 /* SlimeRefresh */,
+				D96449D31F187488003FED79 /* UitlsCommon */,
+				D96449D61F187488003FED79 /* Util */,
+			);
+			path = Uitls;
+			sourceTree = "<group>";
+		};
+		D96449A51F187488003FED79 /* CfRefreFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				D96449A61F187488003FED79 /* CfRefreFooterView.h */,
+				D96449A71F187488003FED79 /* CfRefreFooterView.m */,
+			);
+			path = CfRefreFooterView;
+			sourceTree = "<group>";
+		};
+		D96449A81F187488003FED79 /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D96449A91F187488003FED79 /* DCCycleScrollView */,
+				D96449BB1F187488003FED79 /* DCVerCycleScrollView */,
+			);
+			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		D96449A91F187488003FED79 /* DCCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D96449AA1F187488003FED79 /* DCCollectionViewCell.h */,
+				D96449AB1F187488003FED79 /* DCCollectionViewCell.m */,
+				D96449AC1F187488003FED79 /* DCCycleScrollView.h */,
+				D96449AD1F187488003FED79 /* DCCycleScrollView.m */,
+				D96449AE1F187488003FED79 /* DCPageControl */,
+				D96449B91F187488003FED79 /* DCPageControl.h */,
+				D96449BA1F187488003FED79 /* DCPageControl.m */,
+			);
+			path = DCCycleScrollView;
+			sourceTree = "<group>";
+		};
+		D96449AE1F187488003FED79 /* DCPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D96449AF1F187488003FED79 /* DCScrollPageControll.h */,
+				D96449B01F187488003FED79 /* DCScrollPageControll.m */,
+				D96449B11F187488003FED79 /* DCTAAbstractDotView.h */,
+				D96449B21F187488003FED79 /* DCTAAbstractDotView.m */,
+				D96449B31F187488003FED79 /* DCTAAnimatedDotView.h */,
+				D96449B41F187488003FED79 /* DCTAAnimatedDotView.m */,
+				D96449B51F187488003FED79 /* DCTADotView.h */,
+				D96449B61F187488003FED79 /* DCTADotView.m */,
+				D96449B71F187488003FED79 /* DCTAPageControl.h */,
+				D96449B81F187488003FED79 /* DCTAPageControl.m */,
+			);
+			path = DCPageControl;
+			sourceTree = "<group>";
+		};
+		D96449BB1F187488003FED79 /* DCVerCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D96449BC1F187488003FED79 /* DCVerCycleModel.h */,
+				D96449BD1F187488003FED79 /* DCVerCycleModel.m */,
+				D96449BE1F187488003FED79 /* DCVerCycleScrollView.h */,
+				D96449BF1F187488003FED79 /* DCVerCycleScrollView.m */,
+			);
+			path = DCVerCycleScrollView;
+			sourceTree = "<group>";
+		};
+		D96449C01F187488003FED79 /* JRPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D96449C11F187488003FED79 /* JRPageControl.h */,
+				D96449C21F187488003FED79 /* JRPageControl.m */,
+			);
+			path = JRPageControl;
+			sourceTree = "<group>";
+		};
+		D96449C61F187488003FED79 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				D96449C71F187488003FED79 /* License.html */,
+				D96449C81F187488003FED79 /* RegexKitLite.h */,
+				D96449C91F187488003FED79 /* RegexKitLite.html */,
+				D96449CA1F187488003FED79 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		D96449CB1F187488003FED79 /* SlimeRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				D96449CC1F187488003FED79 /* SRDefine.h */,
+				D96449CD1F187488003FED79 /* SRRefreshView.h */,
+				D96449CE1F187488003FED79 /* SRRefreshView.m */,
+				D96449CF1F187488003FED79 /* SRSlimeView.h */,
+				D96449D01F187488003FED79 /* SRSlimeView.m */,
+				D96449D11F187488003FED79 /* UIScrollView+headerRefresh.h */,
+				D96449D21F187488003FED79 /* UIScrollView+headerRefresh.m */,
+			);
+			path = SlimeRefresh;
+			sourceTree = "<group>";
+		};
+		D96449D31F187488003FED79 /* UitlsCommon */ = {
+			isa = PBXGroup;
+			children = (
+				D96449D41F187488003FED79 /* UitlsCommon.h */,
+				D96449D51F187488003FED79 /* UitlsCommon.m */,
+			);
+			path = UitlsCommon;
+			sourceTree = "<group>";
+		};
+		D96449D61F187488003FED79 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D96449D71F187488003FED79 /* JDUtil.h */,
+				D96449D81F187488003FED79 /* JDUtil.m */,
+				D96449D91F187488003FED79 /* JDUtilHeaders.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D96449F31F187599003FED79 /* SystemGrantedManager */ = {
+			isa = PBXGroup;
+			children = (
+				D96449F41F187599003FED79 /* SystemGrantedManager.h */,
+				D96449F51F187599003FED79 /* SystemGrantedManager.m */,
+			);
+			path = SystemGrantedManager;
+			sourceTree = "<group>";
+		};
+		D96449F71F1879DF003FED79 /* UITestPage */ = {
+			isa = PBXGroup;
+			children = (
+				D96449F81F1879DF003FED79 /* Controller */,
+				D96449FF1F1879DF003FED79 /* Model */,
+				D9644A021F1879DF003FED79 /* UICustom */,
+				D9644A051F1879DF003FED79 /* Views */,
+			);
+			path = UITestPage;
+			sourceTree = "<group>";
+		};
+		D96449F81F1879DF003FED79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D96449F91F1879DF003FED79 /* GestureUITableView.h */,
+				D96449FA1F1879DF003FED79 /* GestureUITableView.m */,
+				D96449FB1F1879DF003FED79 /* ListViewController.h */,
+				D96449FC1F1879DF003FED79 /* ListViewController.m */,
+				D96449FD1F1879DF003FED79 /* TestViewController.h */,
+				D96449FE1F1879DF003FED79 /* TestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D96449FF1F1879DF003FED79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A001F1879DF003FED79 /* TestEntity.h */,
+				D9644A011F1879DF003FED79 /* TestEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9644A021F1879DF003FED79 /* UICustom */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A031F1879DF003FED79 /* TestSegmented.h */,
+				D9644A041F1879DF003FED79 /* TestSegmented.m */,
+			);
+			path = UICustom;
+			sourceTree = "<group>";
+		};
+		D9644A051F1879DF003FED79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A061F1879DF003FED79 /* TestGridCollectionCell.h */,
+				D9644A071F1879DF003FED79 /* TestGridCollectionCell.m */,
+				D9644A081F1879DF003FED79 /* TestGridTableCell.h */,
+				D9644A091F1879DF003FED79 /* TestGridTableCell.m */,
+				D9644A0A1F1879DF003FED79 /* TestHeaderView.h */,
+				D9644A0B1F1879DF003FED79 /* TestHeaderView.m */,
+				D9644A0C1F1879DF003FED79 /* TestTableViewCell.h */,
+				D9644A0D1F1879DF003FED79 /* TestTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9644A171F187A22003FED79 /* MobileTopUp */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A181F187A22003FED79 /* Controller */,
+				D9644A1D1F187A22003FED79 /* Model */,
+				D9644A201F187A22003FED79 /* Views */,
+			);
+			path = MobileTopUp;
+			sourceTree = "<group>";
+		};
+		D9644A181F187A22003FED79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A191F187A22003FED79 /* MobileTopUpViewController+Manager.h */,
+				D9644A1A1F187A22003FED79 /* MobileTopUpViewController+Manager.m */,
+				D9644A1B1F187A22003FED79 /* MobileTopUpViewController.h */,
+				D9644A1C1F187A22003FED79 /* MobileTopUpViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9644A1D1F187A22003FED79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A1E1F187A22003FED79 /* BillEntity.h */,
+				D9644A1F1F187A22003FED79 /* BillEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9644A201F187A22003FED79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A211F187A22003FED79 /* MobileGridView.h */,
+				D9644A221F187A22003FED79 /* MobileGridView.m */,
+				D9644A231F187A22003FED79 /* MobileNumberCell.h */,
+				D9644A241F187A22003FED79 /* MobileNumberCell.m */,
+				D9644A251F187A22003FED79 /* MobileTopUpGridCell.h */,
+				D9644A261F187A22003FED79 /* MobileTopUpGridCell.m */,
+				D9644A271F187A22003FED79 /* MobileTopUpHeaderView.h */,
+				D9644A281F187A22003FED79 /* MobileTopUpHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9644A301F187A5E003FED79 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D9644A3B1F18A379003FED79 /* MobileTopUp.xcassets */,
+				D9644A311F187A5E003FED79 /* billOrderList.json */,
+				D9644A321F187A5E003FED79 /* bannerList.json */,
+				D9644A331F187A5E003FED79 /* findBillList.json */,
+				D9644A341F187A5E003FED79 /* findLiuLiangInfos.json */,
+				D9644A351F187A5E003FED79 /* flowOrderList.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		D976BA3E1E659CD000BE0B91 /* UIElasticView */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +1054,7 @@
 		D991E4F91E5EB85300A24EA8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D96449A41F187488003FED79 /* Uitls */,
 				D9C4011B1E67D83800E0AE7A /* Sections */,
 				D98996641E619EFC00008019 /* UIComponents */,
 				D98996451E61928600008019 /* Resource */,
@@ -520,6 +1126,8 @@
 		D991E5691E5F05EC00A24EA8 /* BaseTableCell */ = {
 			isa = PBXGroup;
 			children = (
+				D96449681F17B63D003FED79 /* BaseTableViewHeaderFooterView.h */,
+				D96449691F17B63D003FED79 /* BaseTableViewHeaderFooterView.m */,
 				D991E56A1E5F05EC00A24EA8 /* UIBaseHeaderFooterView.h */,
 				D991E56B1E5F05EC00A24EA8 /* UIBaseHeaderFooterView.m */,
 				D991E56C1E5F05EC00A24EA8 /* UIBaseTableCell.h */,
@@ -540,6 +1148,8 @@
 		D991E57C1E5FEB7600A24EA8 /* Categary */ = {
 			isa = PBXGroup;
 			children = (
+				D96449581F17B426003FED79 /* UITextField+JRAddition.h */,
+				D96449591F17B426003FED79 /* UITextField+JRAddition.m */,
 				D976BA371E65630400BE0B91 /* NSTimer+Blocks.h */,
 				D976BA381E65630400BE0B91 /* NSTimer+Blocks.m */,
 				D98996571E61962D00008019 /* NSArray+check.h */,
@@ -626,56 +1236,10 @@
 		D9C4011B1E67D83800E0AE7A /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				D9C401311E67FADD00E0AE7A /* UICustom */,
-				D9C4011F1E67DB7300E0AE7A /* Controller */,
-				D9C401221E67DB7300E0AE7A /* Model */,
-				D9C401231E67DB7300E0AE7A /* Views */,
+				D96449F71F1879DF003FED79 /* UITestPage */,
+				D96448E41F1770AB003FED79 /* MobileTopUp */,
 			);
 			path = Sections;
-			sourceTree = "<group>";
-		};
-		D9C4011F1E67DB7300E0AE7A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D9C401201E67DB7300E0AE7A /* TestViewController.h */,
-				D9C401211E67DB7300E0AE7A /* TestViewController.m */,
-				D9EA29321E7967030035396A /* GestureUITableView.h */,
-				D9EA29331E7967030035396A /* GestureUITableView.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D9C401221E67DB7300E0AE7A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D9C401281E67EADE00E0AE7A /* TestEntity.h */,
-				D9C401291E67EADE00E0AE7A /* TestEntity.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D9C401231E67DB7300E0AE7A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D9C401251E67DC0800E0AE7A /* TestTableViewCell.h */,
-				D9C401261E67DC0800E0AE7A /* TestTableViewCell.m */,
-				D9C4012B1E67F66600E0AE7A /* TestGridTableCell.h */,
-				D9C4012C1E67F66600E0AE7A /* TestGridTableCell.m */,
-				D9C4012E1E67F72300E0AE7A /* TestGridCollectionCell.h */,
-				D9C4012F1E67F72300E0AE7A /* TestGridCollectionCell.m */,
-				D96755861E6BDE7F00D560C6 /* TestHeaderView.h */,
-				D96755871E6BDE7F00D560C6 /* TestHeaderView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D9C401311E67FADD00E0AE7A /* UICustom */ = {
-			isa = PBXGroup;
-			children = (
-				D9C401321E67FADD00E0AE7A /* TestSegmented.h */,
-				D9C401331E67FADD00E0AE7A /* TestSegmented.m */,
-			);
-			path = UICustom;
 			sourceTree = "<group>";
 		};
 		D9EA293F1E7AA5F50035396A /* UINoticeCell */ = {
@@ -748,18 +1312,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96449E81F187488003FED79 /* RegexKitLite.html in Resources */,
+				D9644A371F187A5E003FED79 /* bannerList.json in Resources */,
+				D96449E71F187488003FED79 /* License.html in Resources */,
 				D98996511E61928600008019 /* SF-UI-Display-Medium.otf in Resources */,
 				D98996501E61928600008019 /* SF-UI-Display-Light.otf in Resources */,
+				D9644A391F187A5E003FED79 /* findLiuLiangInfos.json in Resources */,
+				D9644A3A1F187A5E003FED79 /* flowOrderList.json in Resources */,
 				D98996541E61928600008019 /* SF-UI-Display-Thin.otf in Resources */,
+				D9644A361F187A5E003FED79 /* billOrderList.json in Resources */,
 				D989964F1E61928600008019 /* DINAlternate-Bold.ttf in Resources */,
 				D98996561E61928600008019 /* 兰亭黑简.TTF in Resources */,
 				D991E4EF1E5EAC8800A24EA8 /* LaunchScreen.storyboard in Resources */,
 				D989968B1E619EFC00008019 /* Icon.xcassets in Resources */,
 				D98996551E61928600008019 /* 兰亭细黑 GBK Mobil.TTF in Resources */,
 				D967558A1E6BEA2E00D560C6 /* BaseController.xcassets in Resources */,
+				D9644A381F187A5E003FED79 /* findBillList.json in Resources */,
 				D98996841E619EFC00008019 /* iouschannels.json in Resources */,
 				D98996521E61928600008019 /* SF-UI-Display-Regular.otf in Resources */,
 				D991E4EC1E5EAC8800A24EA8 /* Assets.xcassets in Resources */,
+				D9644A3C1F18A379003FED79 /* MobileTopUp.xcassets in Resources */,
 				D98996531E61928600008019 /* SF-UI-Display-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -771,69 +1343,123 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96449491F1770AB003FED79 /* MobileTopUpRecordSegmentedView.m in Sources */,
+				D964494C1F1770AB003FED79 /* MobileTopUpRecordEntity.m in Sources */,
 				D9C401101E66758900E0AE7A /* UITableHeaderCell.m in Sources */,
-				D96755881E6BDE7F00D560C6 /* TestHeaderView.m in Sources */,
+				D96449E01F187488003FED79 /* DCTADotView.m in Sources */,
 				D991E55C1E5EE20200A24EA8 /* SDWebImageDownloader.m in Sources */,
+				D96449E21F187488003FED79 /* DCPageControl.m in Sources */,
 				D991E58C1E5FEB7600A24EA8 /* UIFont+Additions.m in Sources */,
 				D976BA4D1E65B64E00BE0B91 /* UIBigGridTableCell.m in Sources */,
 				D991E58A1E5FEB7600A24EA8 /* UIColor+Additions.m in Sources */,
+				D964494D1F1770AB003FED79 /* MobileTopUpRecordCell.m in Sources */,
 				D991E55F1E5EE20200A24EA8 /* SDWebImagePrefetcher.m in Sources */,
-				D9C401341E67FADD00E0AE7A /* TestSegmented.m in Sources */,
+				D96449511F1770AB003FED79 /* MobileTrafficTopUpViewCell.m in Sources */,
 				D98996851E619EFC00008019 /* UICellEntity.m in Sources */,
 				D991E4E41E5EAC8800A24EA8 /* AppDelegate.m in Sources */,
+				D964493C1F1770AB003FED79 /* HistoryRecordView.m in Sources */,
+				D9644A161F1879DF003FED79 /* TestTableViewCell.m in Sources */,
+				D96449391F1770AB003FED79 /* HistoryRecordCell.m in Sources */,
+				D964496A1F17B63D003FED79 /* BaseTableViewHeaderFooterView.m in Sources */,
 				D9EA29461E7AA5F50035396A /* UINoticeTableCell.m in Sources */,
 				D991E5621E5EE20200A24EA8 /* UIImage+MultiFormat.m in Sources */,
+				D9644A2D1F187A22003FED79 /* MobileNumberCell.m in Sources */,
+				D9644A111F1879DF003FED79 /* TestEntity.m in Sources */,
 				D991E4F81E5EACEC00A24EA8 /* MainViewController.m in Sources */,
 				D989968A1E619EFC00008019 /* FloatinglayerView.m in Sources */,
 				D991E5681E5EE70400A24EA8 /* MainViewController+Manager.m in Sources */,
+				D96449DC1F187488003FED79 /* DCCycleScrollView.m in Sources */,
 				D991E58E1E5FEB7600A24EA8 /* UIView+Layout.m in Sources */,
-				D9C4012D1E67F66600E0AE7A /* TestGridTableCell.m in Sources */,
+				D9644A2C1F187A22003FED79 /* MobileGridView.m in Sources */,
+				D9644A0E1F1879DF003FED79 /* GestureUITableView.m in Sources */,
+				D9644A121F1879DF003FED79 /* TestSegmented.m in Sources */,
+				D964493E1F1770AB003FED79 /* JRIousInputTextField.m in Sources */,
+				D96449E51F187488003FED79 /* JRPageControl.m in Sources */,
 				D991E4E11E5EAC8700A24EA8 /* main.m in Sources */,
+				D96449EC1F187488003FED79 /* UIScrollView+headerRefresh.m in Sources */,
 				D991E58D1E5FEB7600A24EA8 /* UIImage+Additions.m in Sources */,
 				D991E5641E5EE20200A24EA8 /* UIImageView+WebCache.m in Sources */,
+				D96449E11F187488003FED79 /* DCTAPageControl.m in Sources */,
 				D991E5731E5F05EC00A24EA8 /* UIBaseHeaderFooterView.m in Sources */,
 				D991E5581E5EE20200A24EA8 /* NSData+ImageContentType.m in Sources */,
+				D9644A2A1F187A22003FED79 /* MobileTopUpViewController.m in Sources */,
+				D96449EB1F187488003FED79 /* SRSlimeView.m in Sources */,
 				D9C401041E65DAB200E0AE7A /* UIHorizontalImgView.m in Sources */,
+				D9644A141F1879DF003FED79 /* TestGridTableCell.m in Sources */,
 				D9EA29471E7AA5F50035396A /* UINoticeView.m in Sources */,
+				D964493B1F1770AB003FED79 /* HistoryRecordEntity.m in Sources */,
 				D9C401031E65DAB200E0AE7A /* UIHorizontalImgTableCell.m in Sources */,
+				D96449E91F187488003FED79 /* RegexKitLite.m in Sources */,
+				D96449F61F187599003FED79 /* SystemGrantedManager.m in Sources */,
 				D991E5951E60431600A24EA8 /* UIBaseViewController.m in Sources */,
+				D964494F1F1770AB003FED79 /* MobileTrafficTopUpSegmented.m in Sources */,
 				D976BA441E659CD000BE0B91 /* UIScrollView+ElasticRefresh.m in Sources */,
 				D991E5761E5F05EC00A24EA8 /* BaseEntity.m in Sources */,
 				D98996891E619EFC00008019 /* UIGridCollectionCell.m in Sources */,
+				D96449ED1F187488003FED79 /* UitlsCommon.m in Sources */,
 				D976BA391E65630400BE0B91 /* NSTimer+Blocks.m in Sources */,
 				D989965C1E61962D00008019 /* NSMutableDictionary+Check.m in Sources */,
 				D989968D1E619EFC00008019 /* JRBubbleView.m in Sources */,
 				D991E5891E5FEB7600A24EA8 /* NSString+Additions.m in Sources */,
+				D9644A2E1F187A22003FED79 /* MobileTopUpGridCell.m in Sources */,
+				D96449571F1770AB003FED79 /* MobileTrafficTopUpHeader.m in Sources */,
 				D991E5631E5EE20200A24EA8 /* UIImageView+HighlightedWebCache.m in Sources */,
-				D9C401241E67DB7300E0AE7A /* TestViewController.m in Sources */,
-				D9C401271E67DC0800E0AE7A /* TestTableViewCell.m in Sources */,
 				D98996921E61A0D000008019 /* UIBaseView.m in Sources */,
 				D991E55E1E5EE20200A24EA8 /* SDWebImageManager.m in Sources */,
+				D96449551F1770AB003FED79 /* MobileTrafficTopUpCell.m in Sources */,
+				D964494B1F1770AB003FED79 /* MobileTopUpRecordViewController.m in Sources */,
+				D964493F1F1770AB003FED79 /* MobileUIBannerCollectionCell.m in Sources */,
+				D9644A2B1F187A22003FED79 /* BillEntity.m in Sources */,
+				D964493A1F1770AB003FED79 /* HistoryRecordClearCell.m in Sources */,
 				D989968C1E619EFC00008019 /* IousFloatinglayer.m in Sources */,
+				D96449EA1F187488003FED79 /* SRRefreshView.m in Sources */,
+				D9644A101F1879DF003FED79 /* TestViewController.m in Sources */,
 				D991E55B1E5EE20200A24EA8 /* SDWebImageDecoder.m in Sources */,
 				D989965B1E61962D00008019 /* NSArray+check.m in Sources */,
+				D96449411F1770AB003FED79 /* UIBannerView.m in Sources */,
+				D96449501F1770AB003FED79 /* MobileTrafficTopUpTableView.m in Sources */,
 				D989968E1E619EFC00008019 /* UIPageControlView.m in Sources */,
+				D96449521F1770AB003FED79 /* MobileTrafficTopUpViewController+Manager.m in Sources */,
 				D991E55D1E5EE20200A24EA8 /* SDWebImageDownloaderOperation.m in Sources */,
 				D991E58B1E5FEB7600A24EA8 /* UIColor+RGBA.m in Sources */,
-				D9C401301E67F72300E0AE7A /* TestGridCollectionCell.m in Sources */,
+				D96449DD1F187488003FED79 /* DCScrollPageControll.m in Sources */,
+				D96449E41F187488003FED79 /* DCVerCycleScrollView.m in Sources */,
+				D96449561F1770AB003FED79 /* MobileTrafficTopUpFooter.m in Sources */,
 				D976BA4E1E65B64E00BE0B91 /* UIBigGridCollectionCell.m in Sources */,
+				D96449EE1F187488003FED79 /* JDUtil.m in Sources */,
+				D964493D1F1770AB003FED79 /* MobileTopUpNetwork.m in Sources */,
 				D9C4010B1E65DD0C00E0AE7A /* UIHorizontalView.m in Sources */,
+				D9644A291F187A22003FED79 /* MobileTopUpViewController+Manager.m in Sources */,
+				D96449541F1770AB003FED79 /* MobileTrafficEntity.m in Sources */,
+				D96449DE1F187488003FED79 /* DCTAAbstractDotView.m in Sources */,
 				D991E5941E60431600A24EA8 /* UIBaseNavigationBar.m in Sources */,
-				D9C4012A1E67EADE00E0AE7A /* TestEntity.m in Sources */,
+				D96449E31F187488003FED79 /* DCVerCycleModel.m in Sources */,
+				D9644A2F1F187A22003FED79 /* MobileTopUpHeaderView.m in Sources */,
+				D964494A1F1770AB003FED79 /* MobileTopUpRecordView.m in Sources */,
 				D98996871E619EFC00008019 /* UIBannerCollectionCell.m in Sources */,
 				D991E55A1E5EE20200A24EA8 /* SDWebImageCompat.m in Sources */,
 				D9C4010A1E65DD0C00E0AE7A /* UIHorizontalTableCell.m in Sources */,
 				D976BA431E659CD000BE0B91 /* UIElasticView.m in Sources */,
-				D9EA29341E7967030035396A /* GestureUITableView.m in Sources */,
+				D964494E1F1770AB003FED79 /* MobileTopUpRecordHeaderView.m in Sources */,
+				D9644A0F1F1879DF003FED79 /* ListViewController.m in Sources */,
+				D96449DA1F187488003FED79 /* CfRefreFooterView.m in Sources */,
 				D9C401131E667E4200E0AE7A /* UITableFooterCell.m in Sources */,
 				D991E5651E5EE20200A24EA8 /* UIView+WebCacheOperation.m in Sources */,
+				D96449531F1770AB003FED79 /* MobileTrafficTopUpViewController.m in Sources */,
+				D96449DF1F187488003FED79 /* DCTAAnimatedDotView.m in Sources */,
 				D991E5601E5EE20200A24EA8 /* UIButton+WebCache.m in Sources */,
+				D96449401F1770AB003FED79 /* UIBannerEntity.m in Sources */,
 				D9C401171E66A5F200E0AE7A /* UIBaseCollectionViewCell.m in Sources */,
 				D98996881E619EFC00008019 /* UIGridTableCell.m in Sources */,
+				D964495A1F17B426003FED79 /* UITextField+JRAddition.m in Sources */,
+				D96449381F1770AB003FED79 /* MobileTopUpHistoryRecordManager.m in Sources */,
+				D9644A131F1879DF003FED79 /* TestGridCollectionCell.m in Sources */,
 				D991E5611E5EE20200A24EA8 /* UIImage+GIF.m in Sources */,
+				D96449DB1F187488003FED79 /* DCCollectionViewCell.m in Sources */,
 				D98996861E619EFC00008019 /* UIBannerTableCell.m in Sources */,
 				D991E5591E5EE20200A24EA8 /* SDImageCache.m in Sources */,
 				D991E5741E5F05EC00A24EA8 /* UIBaseTableCell.m in Sources */,
+				D9644A151F1879DF003FED79 /* TestHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,10 +1570,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5TKVHWTT79;
+				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = "UIComponentsDemo/APP-Prefix.pch";
 				INFOPLIST_FILE = UIComponentsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jd.jrapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -958,10 +1586,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5TKVHWTT79;
+				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = "UIComponentsDemo/APP-Prefix.pch";
 				INFOPLIST_FILE = UIComponentsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jd.jrapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

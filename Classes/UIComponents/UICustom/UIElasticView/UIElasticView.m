@@ -11,7 +11,7 @@
 #define kContentOffset @"contentOffset"
 #define kAnimationDistance (25.f)
 #define kDistance (self.scrollView.contentSize.width - CGRectGetWidth(self.scrollView.frame))
-#define kItemHeight  ((UIScreen_W - 16*2.f - 8.0*2.f)/3.f)
+#define kItemHeight  ((kMainScreenW - 16*2.f - 8.0*2.f)/3.f)
 
 @interface UIElasticView ()
 

@@ -1,0 +1,122 @@
+
+
+{
+    "phoneNum": "15311426057", 
+    "defautlSelectPos": 2, 
+    "skuParams": [
+        {
+            "facePriceName": "10 元", 
+            "class": null, 
+            "jdPrice": "9.98", 
+            "jdPriceName": "售价 9.98 元", 
+            "facePrice": "10"
+        }, 
+        {
+            "facePriceName": "20 元", 
+            "class": null, 
+            "jdPrice": "19.96", 
+            "jdPriceName": "售价 19.96 元", 
+            "facePrice": "20"
+        }, 
+        {
+            "facePriceName": "30 元", 
+            "class": null, 
+            "jdPrice": "29.94", 
+            "jdPriceName": "售价 29.94 元", 
+            "facePrice": "30"
+        }, 
+        {
+            "facePriceName": "50 元", 
+            "class": null, 
+            "jdPrice": "49.90", 
+            "jdPriceName": "售价 49.90 元", 
+            "facePrice": "50"
+        }, 
+        {
+            "facePriceName": "100 元", 
+            "class": null, 
+            "jdPrice": "99.80", 
+            "jdPriceName": "售价 99.80 元", 
+            "facePrice": "100"
+        }, 
+        {
+            "facePriceName": "200 元", 
+            "class": null, 
+            "jdPrice": "199.60", 
+            "jdPriceName": "售价 199.60 元", 
+            "facePrice": "200"
+        }, 
+        {
+            "facePriceName": "300 元", 
+            "class": null, 
+            "jdPrice": "299.40", 
+            "jdPriceName": "售价 299.40 元", 
+            "facePrice": "300"
+        }, 
+        {
+            "facePriceName": "500 元", 
+            "class": null, 
+            "jdPrice": "499.00", 
+            "jdPriceName": "售价 499.00 元", 
+            "facePrice": "500"
+        }
+    ], 
+    "operatorName": "电信", 
+    "areaName": "北京", 
+    "issuccess": 1, 
+    "phoneNumStatus": 1, 
+    "phoneOperator": "(北京电信)", 
+    "jumpList": [
+        {
+            "flowjump": false, 
+            "facePriceName": "惠加油", 
+            "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3529/196/2087130660/75040/8579d2ea/583fe3ebNab071967.png", 
+            "class": null, 
+            "jumEntity": {
+                "jumpType": "5", 
+                "jumpUrl": "3000", 
+                "jumpShare": "", 
+                "class": null, 
+                "gobackRefresh": true, 
+                "shareType": "", 
+                "productId": "FUELCARD_FINANCE"
+            }, 
+            "discount": 0
+        }, 
+        {
+            "flowjump": false, 
+            "facePriceName": "生活缴费", 
+            "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3529/196/2087130660/75040/8579d2ea/583fe3ebNab071967.png", 
+            "class": null, 
+            "jumEntity": {
+                "jumpType": "5", 
+                "jumpUrl": "3000", 
+                "jumpShare": "", 
+                "class": null, 
+                "gobackRefresh": true, 
+                "shareType": "", 
+                "productId": "LIFEPAY"
+            }, 
+            "discount": 0
+        }, 
+        {
+            "flowjump": true, 
+            "facePriceName": "充流量", 
+            "imgUrl": "https://img12.360buyimg.com/jrpmobile/jfs/t3535/266/2136380556/38579/918e7716/583e4fb6N7b131775.jpg", 
+            "class": null, 
+            "jumEntity": {
+                "jumpType": "2", 
+                "jumpUrl": "https://m.jr.jd.com/mjractivity/13082-2.html", 
+                "jumpShare": "", 
+                "class": null, 
+                "gobackRefresh": true, 
+                "shareType": "", 
+                "productId": ""
+            }, 
+            "discount": 0
+        }
+    ], 
+    "bindInfo": "账户绑定号码", 
+    "error_msg": "", 
+    "isBind": true
+}

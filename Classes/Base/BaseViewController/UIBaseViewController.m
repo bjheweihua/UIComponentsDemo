@@ -252,6 +252,12 @@
     self.navigationItem.leftBarButtonItem = leftItem;
 }
 
+-(UIButton*) getRightButton{
+    
+    UIButton *button = (UIButton *)[self.view viewWithTag:k_tag_rightButton];
+    return button;
+}
+
 //定制右侧按钮
 - (void)addRightButtonItemWithImageName:(NSString *)iNameU pressedImgName:(NSString*)iNameD target:(id)target selector:(SEL)selector{
     
@@ -283,15 +289,16 @@
         button = nil;
     }
     
-    UIFont * font = [UIFont getJRDefaultChinaFont:kLeftBtnTitleFont];
-    CGSize size = [title sizeWithFont:font];
+    UIFont *font = [UIFont getJRDefaultChinaFont:kLeftBtnTitleFont];
+    NSDictionary *dic = @{NSFontAttributeName:font};
+    CGSize size = [title sizeWithAttributes:dic];
     button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.tag = k_tag_rightButton;
     [button setTitle:title  forState:UIControlStateNormal];
     [button setTitle:title  forState:UIControlStateHighlighted];
     [button setTitleColor:[UIColor jrColorWithHex:@"#666666"]  forState:UIControlStateNormal];
     [button setTitleColor:[UIColor jrColorWithHex:@"#999999"]  forState:UIControlStateHighlighted];
-    CGFloat pointW = size.width + 20*2; // 20 距离右边间隔
+    CGFloat pointW = size.width; // 20 距离右边间隔
     [button setFrame:CGRectMake(kMainScreenW - pointW, kStateBarHeight, pointW, kNaviBarHeight)];
     [button addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
     button.titleLabel.font = font;

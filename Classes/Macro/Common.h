@@ -40,4 +40,28 @@ typedef NS_ENUM(NSInteger, ELineType)
 #define kSafePadding (16.0)
 #define kOffsetX     (16.0)
 
+//手机号最大长度
+#define kMobileNumberMaxCount (11+2)
+
+
+
+#define JDJRWeakify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+autoreleasepool{} __weak __typeof__(x) __weak_##x##__ = x; \
+_Pragma("clang diagnostic pop")
+
+#define JDJRStrongify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+autoreleasepool{} __typeof__(x) x = __weak_##x##__; if (!x)return;\
+_Pragma("clang diagnostic pop")
+
+#define JDJRStrongifyReturn( x,y ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+autoreleasepool{} __typeof__(x) x = __weak_##x##__; if (!x)return y;\
+_Pragma("clang diagnostic pop")
+
+
 #endif /* Common_h */

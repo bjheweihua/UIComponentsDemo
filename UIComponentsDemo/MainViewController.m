@@ -10,6 +10,8 @@
 #import "MainViewController+Manager.h"
 #import "UICellEntity.h"
 #import "TestViewController.h"
+#import "MobileTopUpViewController.h"
+
 
 
 #define kContentOffset @"contentOffset"
@@ -350,6 +352,9 @@ UITableViewDelegate
         
         // 开普勒购物车
     }
+    
+    MobileTopUpViewController* vc = [[MobileTopUpViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

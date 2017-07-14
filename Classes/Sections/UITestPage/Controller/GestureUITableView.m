@@ -23,6 +23,18 @@
 //}
 
 
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
+    
+    if (self.tableHeaderView && CGRectContainsPoint(self.tableHeaderView.frame, point)) {
+        return NO;
+        
+    }
+    return [super pointInside:point withEvent:event];
+}
+
+
+
+
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     return YES;
 }

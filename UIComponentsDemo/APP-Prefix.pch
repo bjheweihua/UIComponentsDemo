@@ -26,6 +26,7 @@
 #import "NSString+Additions.h"
 #import "UIBaseViewController.h"
 #import "NSTimer+Blocks.h"
+#import "SystemGrantedManager.h"
 
 #endif
 
