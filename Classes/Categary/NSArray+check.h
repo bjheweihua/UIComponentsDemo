@@ -15,7 +15,7 @@
  *
  *  @param index 索引
  *
- *  @return
+ *  @return ObjectType
  */
 - (nullable ObjectType)objectAtIndexCheck:(NSInteger)index;
 

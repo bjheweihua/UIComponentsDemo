@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSContactsUsageDescription</key>
+	<string>APP需要访问您的通讯录</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>APP需要访问您的Speech Recognition</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>兰亭细黑 GBK Mobil.TTF</string>
@@ -30,6 +34,12 @@
 		<string>SF-UI-Display-Thin.otf</string>
 		<string>SF-UI-Display-Regular.otf</string>
 		<string>DINAlternate-Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>voip</string>
+		<string>remote-notification</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
@@ -43,7 +53,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSContactsUsageDescription</key>
-	<string>APP需要访问您的通讯录</string>
 </dict>
 </plist>

@@ -29,4 +29,10 @@
 @property (strong,nonatomic) CMMotionManager *motionManager; // heweihua test
 #endif
 
+
+
+// 设置本地通知
++ (void)registerLocalNotification:(NSInteger)alertTime;
++ (void)cancelLocalNotificationWithKey:(NSString *)key;
+
 @end

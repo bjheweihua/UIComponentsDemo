@@ -50,6 +50,9 @@ compare:v options:NSNumericSearch] != NSOrderedAscending)
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] \
 compare:v options:NSNumericSearch] != NSOrderedDescending)
 
+
+#define IOS7 (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))
+#define IOS8 (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0"))
 #define IOS9 (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"9.0"))
 #define IOS10 (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"10.0"))
 
@@ -64,10 +67,8 @@ compare:v options:NSNumericSearch] != NSOrderedDescending)
 #endif
 
 
-
 #define kLineColor @"#dddddd"
 #define kNaviBarColor @"#35343a" // 黑色
-#define IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
 
 // 判断iPhone5
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
